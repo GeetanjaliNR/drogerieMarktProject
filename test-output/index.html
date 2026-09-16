@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +103,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="homePageLinkValidation">homePageLinkValidation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="verifyHomePageTitle">verifyHomePageTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="verifyProductSearch">verifyProductSearch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmLoginRegistrationPageTest" class="method navigator-link" hash-for-method="dateOfBirthValidation">dateOfBirthValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -131,28 +121,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">drogerieMarkt.test.DmHomePageTest</span>
+              <span class="class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="homePageLinkValidation">
-                  </a> <!-- homePageLinkValidation -->
-                  <span class="method-name">homePageLinkValidation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHomePageTitle">
-                  </a> <!-- verifyHomePageTitle -->
-                  <span class="method-name">verifyHomePageTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyProductSearch">
-                  </a> <!-- verifyProductSearch -->
-                  <span class="method-name">verifyProductSearch</span>
+                  <a name="dateOfBirthValidation">
+                  </a> <!-- dateOfBirthValidation -->
+                  <span class="method-name">dateOfBirthValidation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -169,7 +145,7 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;drogerieMarkt.test.DmHomePageTest&quot;/&gt;
+      &lt;class name=&quot;drogerieMarkt.test.DmLoginRegistrationPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -209,19 +185,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'homePageLinkValidation')
-data.setCell(0, 2, 'drogerieMarkt.test.DmHomePageTest')
-data.setCell(0, 3, 2416);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyProductSearch')
-data.setCell(1, 2, 'drogerieMarkt.test.DmHomePageTest')
-data.setCell(1, 3, 1272);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyHomePageTitle')
-data.setCell(2, 2, 'drogerieMarkt.test.DmHomePageTest')
-data.setCell(2, 3, 65);
+data.setCell(0, 1, 'dateOfBirthValidation')
+data.setCell(0, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
+data.setCell(0, 3, 3722);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -241,9 +209,20 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyRegistrationRedirection</span>
+                <br/>
+                <span class="ignored-method-name">verifyLoginRedirection</span>
+                <br/>
+                <span class="ignored-method-name">verifyRegistrationFormRadioButtons</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -252,39 +231,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">drogerieMarkt.test.DmHomePageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
+              <div class="chronological-class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-method before">
-                <span class="method-name">baseMethod</span>
-                <span class="method-start">3408 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">homePageLinkValidation</span>
-                <span class="method-start">3417 ms</span>
+                <span class="method-name">dateOfBirthValidation</span>
+                <span class="method-start">3833 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">baseMethod</span>
-                <span class="method-start">5836 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyHomePageTitle</span>
-                <span class="method-start">5837 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">baseMethod</span>
-                <span class="method-start">5903 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyProductSearch</span>
-                <span class="method-start">5904 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7178 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">7557 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

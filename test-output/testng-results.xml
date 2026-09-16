@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-09T16:51:24 CEST" name="Suite" finished-at="2026-09-09T16:51:31 CEST" duration-ms="7268">
+  <suite started-at="2026-09-16T17:53:02 CEST" name="Suite" finished-at="2026-09-16T17:53:10 CEST" duration-ms="7665">
     <groups>
     </groups>
-    <test started-at="2026-09-09T16:51:24 CEST" name="Test" finished-at="2026-09-09T16:51:31 CEST" duration-ms="7268">
-      <class name="drogerieMarkt.test.DmHomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@48bb62]" started-at="2026-09-09T16:51:24 CEST" name="setup" finished-at="2026-09-09T16:51:27 CEST" duration-ms="3397" status="PASS">
+    <test started-at="2026-09-16T17:53:02 CEST" name="Test" finished-at="2026-09-16T17:53:10 CEST" duration-ms="7665">
+      <class name="drogerieMarkt.test.DmLoginRegistrationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@2034b64c]" started-at="2026-09-16T17:53:02 CEST" name="setup" finished-at="2026-09-16T17:53:06 CEST" duration-ms="3832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="baseMethod()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@48bb62]" started-at="2026-09-09T16:51:27 CEST" name="baseMethod" finished-at="2026-09-09T16:51:27 CEST" duration-ms="9" status="PASS">
+        <test-method signature="dateOfBirthValidation()[pri:9, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@2034b64c]" started-at="2026-09-16T17:53:06 CEST" name="dateOfBirthValidation" finished-at="2026-09-16T17:53:10 CEST" duration-ms="3722" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- baseMethod -->
-        <test-method signature="homePageLinkValidation()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@48bb62]" started-at="2026-09-09T16:51:27 CEST" name="homePageLinkValidation" finished-at="2026-09-09T16:51:30 CEST" duration-ms="2416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageLinkValidation -->
-        <test-method is-config="true" signature="baseMethod()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@48bb62]" started-at="2026-09-09T16:51:30 CEST" name="baseMethod" finished-at="2026-09-09T16:51:30 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseMethod -->
-        <test-method signature="verifyHomePageTitle()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@48bb62]" started-at="2026-09-09T16:51:30 CEST" name="verifyHomePageTitle" finished-at="2026-09-09T16:51:30 CEST" duration-ms="65" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitle -->
-        <test-method is-config="true" signature="baseMethod()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@48bb62]" started-at="2026-09-09T16:51:30 CEST" name="baseMethod" finished-at="2026-09-09T16:51:30 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseMethod -->
-        <test-method signature="verifyProductSearch()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@48bb62]" started-at="2026-09-09T16:51:30 CEST" name="verifyProductSearch" finished-at="2026-09-09T16:51:31 CEST" duration-ms="1272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@48bb62]" started-at="2026-09-09T16:51:31 CEST" name="tearDown" finished-at="2026-09-09T16:51:31 CEST" duration-ms="86" status="PASS">
+        </test-method> <!-- dateOfBirthValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@2034b64c]" started-at="2026-09-16T17:53:10 CEST" name="tearDown" finished-at="2026-09-16T17:53:10 CEST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- drogerieMarkt.test.DmHomePageTest -->
+      </class> <!-- drogerieMarkt.test.DmLoginRegistrationPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

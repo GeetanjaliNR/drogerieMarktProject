@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
@@ -30,8 +31,20 @@ public class DmHomePage {
 	@FindBy(xpath = "//*[@id=\"input-search-composing-search-input-field\"]")
 	WebElement searchBar;
 	
-	@FindBy(xpath = "//*[@id=\"product-tiles\"]/div[1]/div[2]/div[2]/a")
+	@FindBy(xpath = "//*[@id=\"app\"]/div/main/div/div/div[2]/div/div/div[3]/div[1]/span")
 	WebElement searchedProductResult;
+	
+	@FindBy(xpath="//*[@id=\"dm-view\"]/div/div/div[1]/a")
+	WebElement logo;
+	
+	@FindBy(xpath = "//div[@data-dmid='stage-teaser-img-container']/div/img")
+	List<WebElement> caroselImages;
+	
+	@FindBy(css = "ol[tabindex='0']")
+	WebElement carousel;
+	
+	@FindBy(css = "button[data-dmid= 'Slider-next']")
+	WebElement nextButton;
 	
 	
 	
@@ -108,5 +121,34 @@ public class DmHomePage {
 
 		    acceptBtn.click();
 		}
+
+	public boolean isLogoDisplayed() {
+		System.out.println(logo.getAttribute("aria-label"));
+		System.out.println(logo.isDisplayed());
+		return logo.isDisplayed();
+		
+	}
+
+	public List<WebElement> getCaroselImages() {
+		System.out.println(carousel);
+		return caroselImages;
+	}
+	
+	public long getCarouselScrollPosition() {
+		
+		 WebElement carousel = wait.until(
+			        ExpectedConditions.presenceOfElementLocated(
+			            By.cssSelector("ol[tabindex='0']")
+			        )
+			    );
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		return ((Number)js.executeScript("return arguments[0].scrollLeft", carousel)).longValue();
+	}
+	
+	public void clickNextButton() {
+	    nextButton.click();
+	}
+
+	
 	
 }
