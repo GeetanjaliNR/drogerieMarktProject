@@ -30,6 +30,12 @@ public class DmLoginRegistrationPage {
 	@FindBy(xpath = "//input[@type=\"radio\"]")
 	List<WebElement> genderRadioButtons;
 	
+	@FindBy(id = "firstName-input")
+	WebElement firstNameField;
+	
+	@FindBy(id="firstName-input-error")
+	WebElement firstNameErrorMsg;
+	
 	@FindBy(id = "birthDate-date-input-year")
 	WebElement DOBYear;
 	
@@ -48,15 +54,24 @@ public class DmLoginRegistrationPage {
 		wait= new WebDriverWait(driver, Duration.ofSeconds(20));
 	}
 	
+	public void clickAccountButton() {
+		accountButton.click();	
+	}
 	
 	public void clickLoginButton() {
 		wait.until(ExpectedConditions.elementToBeClickable(loginButton));
 		loginButton.click();
 	}
 	
+	public void clickRegistrationButton() {
+		wait.until(ExpectedConditions.elementToBeClickable(registrationButton));
+		registrationButton.click();
+		
+	}
 	
-	public void clickAccountButton() {
-		accountButton.click();	
+	public void getRegistrationPage() {
+		clickAccountButton();
+		clickRegistrationButton();	
 	}
 	
 
@@ -65,11 +80,7 @@ public class DmLoginRegistrationPage {
 		return driver.getCurrentUrl();
 	}
 
-	public void clickRegistrationButton() {
-		wait.until(ExpectedConditions.elementToBeClickable(registrationButton));
-		registrationButton.click();
-		
-	}
+	
 
 	public List<WebElement> getRadioButtons() {
 		wait.until(ExpectedConditions.visibilityOfAllElements(genderRadioButtons));
@@ -90,6 +101,16 @@ public class DmLoginRegistrationPage {
 	public boolean isErrorMessageDisplayed() {
 		wait.until(ExpectedConditions.visibilityOfAllElements(errorMessage));
 		return errorMessage.isDisplayed();
+	}
+
+	public void setFirstNameValue(String firstName) {
+		firstNameField.sendKeys(firstName, Keys.ENTER);
+	}
+	
+	public boolean isFirstNameErrorMsgDisplayed() {
+		wait.until(ExpectedConditions.visibilityOfAllElements(firstNameErrorMsg));
+		return firstNameErrorMsg.isDisplayed();
+		
 	}
 	
 

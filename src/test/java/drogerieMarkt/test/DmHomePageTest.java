@@ -18,7 +18,6 @@ public class DmHomePageTest extends DmBaseClass{
 	@Test(enabled=true, priority=1)
 	public void verifyHomePageTitle()throws Exception {
 		String actualTitle = homePage.getPageTitle();
-		homePage.acceptCookies();
 		
 		String expectedTitle = "Bei dm-drogerie markt online einkaufen | dm";
 		

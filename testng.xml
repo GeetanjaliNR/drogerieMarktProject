@@ -4,7 +4,10 @@
   <test thread-count="5" name="Test">
     <classes>
       <!-- <class name="drogerieMarkt.test.DmHomePageTest"/>-->
-      <class name="drogerieMarkt.test.DmLoginRegistrationPageTest"/>
+      <!--<class name="drogerieMarkt.test.DmLoginRegistrationPageTest"/>-->
+       <!--<class name="drogerieMarkt.test.DmProductTest"/>-->
+      <!-- <class name="drogerieMarkt.test.DmCartTest"/>-->
+       <class name="drogerieMarkt.test.DmSearchTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

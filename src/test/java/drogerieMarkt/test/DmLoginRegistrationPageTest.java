@@ -11,9 +11,8 @@ import drogerieMarkt.base.DmBaseClass;
 public class DmLoginRegistrationPageTest extends DmBaseClass {
 
 	
-	@Test(enabled=false, priority=7)
+	@Test(enabled=true, priority=7)
 	public void verifyLoginRedirection() throws Exception {
-		homePage.acceptCookies();
 		loginRegistrationPage.clickAccountButton();
 		loginRegistrationPage.clickLoginButton();
 		String currentURL =loginRegistrationPage.getCurrentPageURL();
@@ -21,9 +20,8 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 		Assert.assertTrue(currentURL.contains("web-login"));
 	}
 	
-	@Test(enabled=false, priority=8)
+	@Test(enabled=true, priority=8)
 	public void verifyRegistrationRedirection() throws Exception {
-		homePage.acceptCookies();
 		loginRegistrationPage.clickAccountButton();
 		loginRegistrationPage.clickRegistrationButton();
 		String currentURL =loginRegistrationPage.getCurrentPageURL();
@@ -31,11 +29,9 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 		Assert.assertTrue(currentURL.contains("registration"));
 	}
 	
-	@Test(enabled=false, priority=8)
+	@Test(enabled=true, priority=8)
 	public void verifyRegistrationFormRadioButtons() throws Exception {
-		homePage.acceptCookies();
-		loginRegistrationPage.clickAccountButton();
-		loginRegistrationPage.clickRegistrationButton();
+		loginRegistrationPage.getRegistrationPage();
 		
 		List<WebElement> genderRadioButton = loginRegistrationPage.getRadioButtons();
 		
@@ -58,21 +54,24 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 		
 		Assert.assertFalse(genderRadioButton.get(0).isSelected());
 		Assert.assertFalse(genderRadioButton.get(1).isSelected());
-		Assert.assertTrue(genderRadioButton.get(2).isSelected());
-			
+		Assert.assertTrue(genderRadioButton.get(2).isSelected());	
 	}
 	
-	@Test(enabled=true, priority=9)
+	@Test(enabled=false, priority=9)
+	public void VerifyfirstName() throws Exception {
+		loginRegistrationPage.getRegistrationPage();
+		
+		loginRegistrationPage.setFirstNameValue("");
+		Assert.assertTrue(loginRegistrationPage.isFirstNameErrorMsgDisplayed());
+	}
+	
+	@Test(enabled=false, priority=10)
 	public void dateOfBirthValidation() throws Exception {
-		//ensure appropriate message is shown when year value is less than 1906 
-		homePage.acceptCookies();
-		loginRegistrationPage.clickAccountButton();
-		loginRegistrationPage.clickRegistrationButton();
+		//ensure appropriate error message is shown 
+		loginRegistrationPage.getRegistrationPage();
 		
 		loginRegistrationPage.setDOBValues("01","01","1905");
 		
 		Assert.assertTrue(loginRegistrationPage.isErrorMessageDisplayed());
-		
 	}
-	
 }

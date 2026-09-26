@@ -2,24 +2,24 @@
 <testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-16T17:53:02 CEST" name="Suite" finished-at="2026-09-16T17:53:10 CEST" duration-ms="7665">
+  <suite started-at="2026-09-26T10:23:25 CEST" name="Suite" finished-at="2026-09-26T10:23:36 CEST" duration-ms="11616">
     <groups>
     </groups>
-    <test started-at="2026-09-16T17:53:02 CEST" name="Test" finished-at="2026-09-16T17:53:10 CEST" duration-ms="7665">
-      <class name="drogerieMarkt.test.DmLoginRegistrationPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@2034b64c]" started-at="2026-09-16T17:53:02 CEST" name="setup" finished-at="2026-09-16T17:53:06 CEST" duration-ms="3832" status="PASS">
+    <test started-at="2026-09-26T10:23:25 CEST" name="Test" finished-at="2026-09-26T10:23:36 CEST" duration-ms="11616">
+      <class name="drogerieMarkt.test.DmSearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:drogerieMarkt.test.DmSearchTest@2034b64c]" started-at="2026-09-26T10:23:25 CEST" name="setup" finished-at="2026-09-26T10:23:30 CEST" duration-ms="5563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dateOfBirthValidation()[pri:9, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@2034b64c]" started-at="2026-09-16T17:53:06 CEST" name="dateOfBirthValidation" finished-at="2026-09-16T17:53:10 CEST" duration-ms="3722" status="PASS">
+        <test-method signature="verifyPriceFilterFunctionality()[pri:0, instance:drogerieMarkt.test.DmSearchTest@2034b64c]" started-at="2026-09-26T10:23:30 CEST" name="verifyPriceFilterFunctionality" finished-at="2026-09-26T10:23:36 CEST" duration-ms="5945" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dateOfBirthValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@2034b64c]" started-at="2026-09-16T17:53:10 CEST" name="tearDown" finished-at="2026-09-16T17:53:10 CEST" duration-ms="89" status="PASS">
+        </test-method> <!-- verifyPriceFilterFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:drogerieMarkt.test.DmSearchTest@2034b64c]" started-at="2026-09-26T10:23:36 CEST" name="tearDown" finished-at="2026-09-26T10:23:36 CEST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- drogerieMarkt.test.DmLoginRegistrationPageTest -->
+      </class> <!-- drogerieMarkt.test.DmSearchTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -88,7 +88,7 @@ public class DmHomePage {
 		}
 		
 	}
-
+	
 	public String searchProduct(String searchProductName) throws InterruptedException {
 		searchBar.sendKeys(searchProductName, Keys.ENTER);
 		wait.until(ExpectedConditions.visibilityOf(searchedProductResult));
