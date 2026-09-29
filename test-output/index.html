@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,60 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">29 methods, 3 failed,  4 skipped,  22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmCartTest" class="method navigator-link" hash-for-method="verifyCartElementsAreDisplayed">verifyCartElementsAreDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmSearchTest" class="method navigator-link" hash-for-method="verifySortByAscending">verifySortByAscending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmSearchTest" class="method navigator-link" hash-for-method="verifySortByDescending">verifySortByDescending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmCartTest" class="method navigator-link" hash-for-method="verifyCartPageNavigation">verifyCartPageNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmCartTest" class="method navigator-link" hash-for-method="verifyCartProductMatchesCartSummary">verifyCartProductMatchesCartSummary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmCartTest" class="method navigator-link" hash-for-method="verifyCartShowsProductCount">verifyCartShowsProductCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmCartTest" class="method navigator-link" hash-for-method="verifyEmptyCartMessage">verifyEmptyCartMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +156,112 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmLoginRegistrationPageTest" class="method navigator-link" hash-for-method="VerifyfirstName">VerifyfirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmLoginRegistrationPageTest" class="method navigator-link" hash-for-method="dateOfBirthValidation">dateOfBirthValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="homePageLinkValidation">homePageLinkValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyAddToCartButtonEnabled">verifyAddToCartButtonEnabled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="verifyCarouselNextButton">verifyCarouselNextButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="verifyHomePageTitle">verifyHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="verifyIfCaroselIsDisplayed">verifyIfCaroselIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmSearchTest" class="method navigator-link" hash-for-method="verifyIfCategoryFilterIsApplied">verifyIfCategoryFilterIsApplied</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmLoginRegistrationPageTest" class="method navigator-link" hash-for-method="verifyLoginRedirection">verifyLoginRedirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="verifyPresenceOfLogo">verifyPresenceOfLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmSearchTest" class="method navigator-link" hash-for-method="verifyPriceFilterFunctionality">verifyPriceFilterFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyProductPageNaviagation">verifyProductPageNaviagation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyProductPriceIsDisplayed">verifyProductPriceIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyProductQuatityDropdown">verifyProductQuatityDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="verifyProductSearch">verifyProductSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyProductsAreDisplayed">verifyProductsAreDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyQuantityChange(2)">verifyQuantityChange(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyQuantityChange(3)">verifyQuantityChange(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyQuantityChange(1)">verifyQuantityChange(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyQuantityChange(4)">verifyQuantityChange(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmLoginRegistrationPageTest" class="method navigator-link" hash-for-method="verifyRegistrationFormRadioButtons">verifyRegistrationFormRadioButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmLoginRegistrationPageTest" class="method navigator-link" hash-for-method="verifyRegistrationRedirection">verifyRegistrationRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -118,6 +276,285 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">drogerieMarkt.test.DmCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartElementsAreDisplayed">
+                  </a> <!-- verifyCartElementsAreDisplayed -->
+                  <span class="method-name">verifyCartElementsAreDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to have text &quot;2&quot;. Current text: &quot;1&quot;.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;15.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55089}, goog:processID: 72634, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55089/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14810aa9f0c3d820ea204d66c7c964f3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at drogerieMarkt.page.DmCartPage.addProductToCart(DmCartPage.java:50)
+	at drogerieMarkt.test.DmCartTest.verifyCartElementsAreDisplayed(DmCartTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">drogerieMarkt.test.DmSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByAscending">
+                  </a> <!-- verifySortByAscending -->
+                  <span class="method-name">verifySortByAscending</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&quot;product-tiles&quot;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at drogerieMarkt.page.DmProductPage.getProductsLoaded(DmProductPage.java:51)
+	at drogerieMarkt.test.DmSearchTest.verifySortByAscending(DmSearchTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;product-tiles&quot;]&quot;}
+  (Session info: chrome=154.0.8037.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;15.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ee5dfd336fd9782549f70a7baf7af15, findElement {using=xpath, value=//*[@id=&quot;product-tiles&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55835}, goog:processID: 72777, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55835/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ee5dfd336fd9782549f70a7baf7af15
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 30 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByDescending">
+                  </a> <!-- verifySortByDescending -->
+                  <span class="method-name">verifySortByDescending</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=154.0.8037.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;15.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54844cf01482461a307990cad5e260cf, isElementDisplayed {id=f.6915A293AE29A0146FED4F17BDA2D7EE.d.49D046D96F018894A04EAB7C05F6D1AF.e.137}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56028}, goog:processID: 72827, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56028/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (54844cf01482461a307990cad5e260cf)] -&gt; xpath: //div[@id=&quot;product-tiles&quot;]//div[@data-dmid=&quot;product-tile-container&quot;]//span[@data-dmid=&quot;price-localized&quot;]]
+Session ID: 54844cf01482461a307990cad5e260cf
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:284)
+	at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:318)
+	at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at drogerieMarkt.page.DmSearchPage.getProductPriceList(DmSearchPage.java:80)
+	at drogerieMarkt.test.DmSearchTest.verifySortByDescending(DmSearchTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">drogerieMarkt.test.DmCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartPageNavigation">
+                  </a> <!-- verifyCartPageNavigation -->
+                  <span class="method-name">verifyCartPageNavigation</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at drogerieMarkt.page.DmHomePage.acceptCookies(DmHomePage.java:109)
+	at drogerieMarkt.base.DmBaseClass.setup(DmBaseClass.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-testid=&apos;uc-accept-all-button&apos;]&quot;}
+  (Session info: chrome=154.0.8037.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;15.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3714e3208c2c4fe682799cf549ef7e7, findElementFromShadowRoot {value=[data-testid=&apos;uc-accept-all-button&apos;], shadowId=f.57A78214C9D3364440D83DEA8274B927.d.9D25542102BB36AF4B3D5595EB9126DB.e.77, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55392}, goog:processID: 72661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55392/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3714e3208c2c4fe682799cf549ef7e7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+	at org.openqa.selenium.remote.ShadowRoot.findElement(ShadowRoot.java:55)
+	at drogerieMarkt.page.DmHomePage.lambda$0(DmHomePage.java:111)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 33 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartProductMatchesCartSummary">
+                  </a> <!-- verifyCartProductMatchesCartSummary -->
+                  <span class="method-name">verifyCartProductMatchesCartSummary</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at drogerieMarkt.page.DmHomePage.acceptCookies(DmHomePage.java:109)
+	at drogerieMarkt.base.DmBaseClass.setup(DmBaseClass.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-testid=&apos;uc-accept-all-button&apos;]&quot;}
+  (Session info: chrome=154.0.8037.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;15.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3714e3208c2c4fe682799cf549ef7e7, findElementFromShadowRoot {value=[data-testid=&apos;uc-accept-all-button&apos;], shadowId=f.57A78214C9D3364440D83DEA8274B927.d.9D25542102BB36AF4B3D5595EB9126DB.e.77, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55392}, goog:processID: 72661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55392/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3714e3208c2c4fe682799cf549ef7e7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+	at org.openqa.selenium.remote.ShadowRoot.findElement(ShadowRoot.java:55)
+	at drogerieMarkt.page.DmHomePage.lambda$0(DmHomePage.java:111)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 33 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartShowsProductCount">
+                  </a> <!-- verifyCartShowsProductCount -->
+                  <span class="method-name">verifyCartShowsProductCount</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at drogerieMarkt.page.DmHomePage.acceptCookies(DmHomePage.java:109)
+	at drogerieMarkt.base.DmBaseClass.setup(DmBaseClass.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-testid=&apos;uc-accept-all-button&apos;]&quot;}
+  (Session info: chrome=154.0.8037.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;15.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3714e3208c2c4fe682799cf549ef7e7, findElementFromShadowRoot {value=[data-testid=&apos;uc-accept-all-button&apos;], shadowId=f.57A78214C9D3364440D83DEA8274B927.d.9D25542102BB36AF4B3D5595EB9126DB.e.77, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55392}, goog:processID: 72661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55392/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3714e3208c2c4fe682799cf549ef7e7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+	at org.openqa.selenium.remote.ShadowRoot.findElement(ShadowRoot.java:55)
+	at drogerieMarkt.page.DmHomePage.lambda$0(DmHomePage.java:111)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 33 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptyCartMessage">
+                  </a> <!-- verifyEmptyCartMessage -->
+                  <span class="method-name">verifyEmptyCartMessage</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at drogerieMarkt.page.DmHomePage.acceptCookies(DmHomePage.java:109)
+	at drogerieMarkt.base.DmBaseClass.setup(DmBaseClass.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-testid=&apos;uc-accept-all-button&apos;]&quot;}
+  (Session info: chrome=154.0.8037.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;15.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3714e3208c2c4fe682799cf549ef7e7, findElementFromShadowRoot {value=[data-testid=&apos;uc-accept-all-button&apos;], shadowId=f.57A78214C9D3364440D83DEA8274B927.d.9D25542102BB36AF4B3D5595EB9126DB.e.77, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55392}, goog:processID: 72661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55392/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3714e3208c2c4fe682799cf549ef7e7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+	at org.openqa.selenium.remote.ShadowRoot.findElement(ShadowRoot.java:55)
+	at drogerieMarkt.page.DmHomePage.lambda$0(DmHomePage.java:111)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 33 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -126,9 +563,184 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="verifyIfCategoryFilterIsApplied">
+                  </a> <!-- verifyIfCategoryFilterIsApplied -->
+                  <span class="method-name">verifyIfCategoryFilterIsApplied</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verifyPriceFilterFunctionality">
                   </a> <!-- verifyPriceFilterFunctionality -->
                   <span class="method-name">verifyPriceFilterFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">drogerieMarkt.test.DmProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddToCartButtonEnabled">
+                  </a> <!-- verifyAddToCartButtonEnabled -->
+                  <span class="method-name">verifyAddToCartButtonEnabled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPageNaviagation">
+                  </a> <!-- verifyProductPageNaviagation -->
+                  <span class="method-name">verifyProductPageNaviagation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPriceIsDisplayed">
+                  </a> <!-- verifyProductPriceIsDisplayed -->
+                  <span class="method-name">verifyProductPriceIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductQuatityDropdown">
+                  </a> <!-- verifyProductQuatityDropdown -->
+                  <span class="method-name">verifyProductQuatityDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsAreDisplayed">
+                  </a> <!-- verifyProductsAreDisplayed -->
+                  <span class="method-name">verifyProductsAreDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQuantityChange(2)">
+                  </a> <!-- verifyQuantityChange(2) -->
+                  <span class="method-name">verifyQuantityChange</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQuantityChange(3)">
+                  </a> <!-- verifyQuantityChange(3) -->
+                  <span class="method-name">verifyQuantityChange</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQuantityChange(1)">
+                  </a> <!-- verifyQuantityChange(1) -->
+                  <span class="method-name">verifyQuantityChange</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQuantityChange(4)">
+                  </a> <!-- verifyQuantityChange(4) -->
+                  <span class="method-name">verifyQuantityChange</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">drogerieMarkt.test.DmHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageLinkValidation">
+                  </a> <!-- homePageLinkValidation -->
+                  <span class="method-name">homePageLinkValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCarouselNextButton">
+                  </a> <!-- verifyCarouselNextButton -->
+                  <span class="method-name">verifyCarouselNextButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitle">
+                  </a> <!-- verifyHomePageTitle -->
+                  <span class="method-name">verifyHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIfCaroselIsDisplayed">
+                  </a> <!-- verifyIfCaroselIsDisplayed -->
+                  <span class="method-name">verifyIfCaroselIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPresenceOfLogo">
+                  </a> <!-- verifyPresenceOfLogo -->
+                  <span class="method-name">verifyPresenceOfLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch">
+                  </a> <!-- verifyProductSearch -->
+                  <span class="method-name">verifyProductSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyfirstName">
+                  </a> <!-- VerifyfirstName -->
+                  <span class="method-name">VerifyfirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateOfBirthValidation">
+                  </a> <!-- dateOfBirthValidation -->
+                  <span class="method-name">dateOfBirthValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginRedirection">
+                  </a> <!-- verifyLoginRedirection -->
+                  <span class="method-name">verifyLoginRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationFormRadioButtons">
+                  </a> <!-- verifyRegistrationFormRadioButtons -->
+                  <span class="method-name">verifyRegistrationFormRadioButtons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationRedirection">
+                  </a> <!-- verifyRegistrationRedirection -->
+                  <span class="method-name">verifyRegistrationRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -145,6 +757,10 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;drogerieMarkt.test.DmHomePageTest&quot;/&gt;
+      &lt;class name=&quot;drogerieMarkt.test.DmLoginRegistrationPageTest&quot;/&gt;
+      &lt;class name=&quot;drogerieMarkt.test.DmProductTest&quot;/&gt;
+      &lt;class name=&quot;drogerieMarkt.test.DmCartTest&quot;/&gt;
       &lt;class name=&quot;drogerieMarkt.test.DmSearchTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -159,7 +775,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +801,128 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(29);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPriceFilterFunctionality')
-data.setCell(0, 2, 'drogerieMarkt.test.DmSearchTest')
-data.setCell(0, 3, 5945);
+data.setCell(0, 1, 'verifyCartElementsAreDisplayed')
+data.setCell(0, 2, 'drogerieMarkt.test.DmCartTest')
+data.setCell(0, 3, 2058639);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifySortByAscending')
+data.setCell(1, 2, 'drogerieMarkt.test.DmSearchTest')
+data.setCell(1, 3, 20420);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyPriceFilterFunctionality')
+data.setCell(2, 2, 'drogerieMarkt.test.DmSearchTest')
+data.setCell(2, 3, 4515);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyIfCategoryFilterIsApplied')
+data.setCell(3, 2, 'drogerieMarkt.test.DmSearchTest')
+data.setCell(3, 3, 3598);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCarouselNextButton')
+data.setCell(4, 2, 'drogerieMarkt.test.DmHomePageTest')
+data.setCell(4, 3, 2683);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'homePageLinkValidation')
+data.setCell(5, 2, 'drogerieMarkt.test.DmHomePageTest')
+data.setCell(5, 3, 2609);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyQuantityChange')
+data.setCell(6, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(6, 3, 2037);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyAddToCartButtonEnabled')
+data.setCell(7, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(7, 3, 1861);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyProductPageNaviagation')
+data.setCell(8, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(8, 3, 1857);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifySortByDescending')
+data.setCell(9, 2, 'drogerieMarkt.test.DmSearchTest')
+data.setCell(9, 3, 1740);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyQuantityChange')
+data.setCell(10, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(10, 3, 1668);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'dateOfBirthValidation')
+data.setCell(11, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
+data.setCell(11, 3, 1664);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyQuantityChange')
+data.setCell(12, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(12, 3, 1658);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyQuantityChange')
+data.setCell(13, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(13, 3, 1641);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLoginRedirection')
+data.setCell(14, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
+data.setCell(14, 3, 1633);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyRegistrationFormRadioButtons')
+data.setCell(15, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
+data.setCell(15, 3, 1626);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyfirstName')
+data.setCell(16, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
+data.setCell(16, 3, 1504);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyProductQuatityDropdown')
+data.setCell(17, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(17, 3, 1474);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyRegistrationRedirection')
+data.setCell(18, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
+data.setCell(18, 3, 1326);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyProductsAreDisplayed')
+data.setCell(19, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(19, 3, 1261);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyProductSearch')
+data.setCell(20, 2, 'drogerieMarkt.test.DmHomePageTest')
+data.setCell(20, 3, 1216);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyProductPriceIsDisplayed')
+data.setCell(21, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(21, 3, 976);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyIfCaroselIsDisplayed')
+data.setCell(22, 2, 'drogerieMarkt.test.DmHomePageTest')
+data.setCell(22, 3, 751);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyPresenceOfLogo')
+data.setCell(23, 2, 'drogerieMarkt.test.DmHomePageTest')
+data.setCell(23, 3, 123);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyHomePageTitle')
+data.setCell(24, 2, 'drogerieMarkt.test.DmHomePageTest')
+data.setCell(24, 3, 19);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyCartProductMatchesCartSummary')
+data.setCell(25, 2, 'drogerieMarkt.test.DmCartTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyCartShowsProductCount')
+data.setCell(26, 2, 'drogerieMarkt.test.DmCartTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyEmptyCartMessage')
+data.setCell(27, 2, 'drogerieMarkt.test.DmCartTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyCartPageNavigation')
+data.setCell(28, 2, 'drogerieMarkt.test.DmCartTest')
+data.setCell(28, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 35 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -209,17 +937,42 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">drogerieMarkt.test.DmCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportSetup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">drogerieMarkt.test.DmSearchTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyIfCategoryFilterIsApplied</span>
+                <span class="ignored-method-name">tearDown</span>
                 <br/>
-                <span class="ignored-method-name">verifySortByDescending</span>
+                <span class="ignored-method-name">reportSetup</span>
                 <br/>
-                <span class="ignored-method-name">verifySortByAscending</span>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">drogerieMarkt.test.DmProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportSetup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">reportSetup</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -231,19 +984,370 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">drogerieMarkt.test.DmSearchTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">drogerieMarkt.test.DmHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">reportSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.homePageLinkValidation())</span>
+                <span class="method-start">110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageLinkValidation</span>
+                <span class="method-start">5331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=homePageLinkValidation status=SUCCESS method=DmHomePageTest.homePageLinkValidation(...)</span>
+                <span class="method-start">7941 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyCarouselNextButton() throws java.lang.Exception)</span>
+                <span class="method-start">8031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCarouselNextButton</span>
+                <span class="method-start">13367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyCarouselNextButton status=SUCCESS method=DmHomePageTest.verifyCarouselNextBut...)</span>
+                <span class="method-start">16051 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyHomePageTitle())</span>
+                <span class="method-start">16144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitle</span>
+                <span class="method-start">21076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyHomePageTitle status=SUCCESS method=DmHomePageTest.verifyHomePageTitle()[pri:...)</span>
+                <span class="method-start">21095 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyIfCaroselIsDisplayed())</span>
+                <span class="method-start">21181 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyIfCaroselIsDisplayed</span>
+                <span class="method-start">25337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyIfCaroselIsDisplayed status=SUCCESS method=DmHomePageTest.verifyIfCaroselIsDi...)</span>
+                <span class="method-start">26088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyPresenceOfLogo())</span>
+                <span class="method-start">26171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPresenceOfLogo</span>
+                <span class="method-start">31650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyPresenceOfLogo status=SUCCESS method=DmHomePageTest.verifyPresenceOfLogo()[pr...)</span>
+                <span class="method-start">31774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyProductSearch() throws java.lang.Exception)</span>
+                <span class="method-start">31860 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearch</span>
+                <span class="method-start">37183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyProductSearch status=SUCCESS method=DmHomePageTest.verifyProductSearch()[pri:...)</span>
+                <span class="method-start">38400 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmLoginRegistrationPageTest.VerifyfirstName() throws java.lang.Except...)</span>
+                <span class="method-start">38485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyfirstName</span>
+                <span class="method-start">42997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=VerifyfirstName status=SUCCESS method=DmLoginRegistrationPageTest.VerifyfirstName()...)</span>
+                <span class="method-start">44502 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmLoginRegistrationPageTest.dateOfBirthValidation() throws java.lang....)</span>
+                <span class="method-start">44586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dateOfBirthValidation</span>
+                <span class="method-start">49567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=dateOfBirthValidation status=SUCCESS method=DmLoginRegistrationPageTest.dateOfBirth...)</span>
+                <span class="method-start">51231 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmLoginRegistrationPageTest.verifyLoginRedirection() throws java.lang...)</span>
+                <span class="method-start">51317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginRedirection</span>
+                <span class="method-start">56064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyLoginRedirection status=SUCCESS method=DmLoginRegistrationPageTest.verifyLogi...)</span>
+                <span class="method-start">57698 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmLoginRegistrationPageTest.verifyRegistrationFormRadioButtons() thro...)</span>
+                <span class="method-start">57781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationFormRadioButtons</span>
+                <span class="method-start">63067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyRegistrationFormRadioButtons status=SUCCESS method=DmLoginRegistrationPageTes...)</span>
+                <span class="method-start">64693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmLoginRegistrationPageTest.verifyRegistrationRedirection() throws ja...)</span>
+                <span class="method-start">64777 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationRedirection</span>
+                <span class="method-start">70047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyRegistrationRedirection status=SUCCESS method=DmLoginRegistrationPageTest.ver...)</span>
+                <span class="method-start">71373 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">drogerieMarkt.test.DmProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyAddToCartButtonEnabled())</span>
+                <span class="method-start">71458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddToCartButtonEnabled</span>
+                <span class="method-start">76808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyAddToCartButtonEnabled status=SUCCESS method=DmProductTest.verifyAddToCartBut...)</span>
+                <span class="method-start">78670 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyProductPageNaviagation() throws java.lang.Excepti...)</span>
+                <span class="method-start">78755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPageNaviagation</span>
+                <span class="method-start">83993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyProductPageNaviagation status=SUCCESS method=DmProductTest.verifyProductPageN...)</span>
+                <span class="method-start">85850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyProductPriceIsDisplayed())</span>
+                <span class="method-start">85937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPriceIsDisplayed</span>
+                <span class="method-start">91280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyProductPriceIsDisplayed status=SUCCESS method=DmProductTest.verifyProductPric...)</span>
+                <span class="method-start">92257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyProductQuatityDropdown())</span>
+                <span class="method-start">92339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductQuatityDropdown</span>
+                <span class="method-start">96463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyProductQuatityDropdown status=SUCCESS method=DmProductTest.verifyProductQuati...)</span>
+                <span class="method-start">97937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyProductsAreDisplayed() throws java.lang.Exception)</span>
+                <span class="method-start">98022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsAreDisplayed</span>
+                <span class="method-start">103393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyProductsAreDisplayed status=SUCCESS method=DmProductTest.verifyProductsAreDis...)</span>
+                <span class="method-start">104654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int))</span>
+                <span class="method-start">104742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyQuantityChange(1)</span>
+                <span class="method-start">108647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[...)</span>
+                <span class="method-start">110684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int))</span>
+                <span class="method-start">110768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyQuantityChange(2)</span>
+                <span class="method-start">115327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[...)</span>
+                <span class="method-start">116985 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int))</span>
+                <span class="method-start">117093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyQuantityChange(3)</span>
+                <span class="method-start">122431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[...)</span>
+                <span class="method-start">124072 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int))</span>
+                <span class="method-start">124154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyQuantityChange(4)</span>
+                <span class="method-start">128117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[...)</span>
+                <span class="method-start">129785 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">drogerieMarkt.test.DmCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmCartTest.verifyCartElementsAreDisplayed())</span>
+                <span class="method-start">130102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCartElementsAreDisplayed</span>
+                <span class="method-start">134607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyCartElementsAreDisplayed status=FAILURE method=DmCartTest.verifyCartElementsA...)</span>
+                <span class="method-start">2193247 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup(public void drogerieMarkt.test.DmCartTest.verifyCartPageNavigation())</span>
+                <span class="method-start">2193396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">2733388 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">2733389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">2733390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2733391 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">2733392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2733393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">2733394 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">drogerieMarkt.test.DmSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmSearchTest.verifyIfCategoryFilterIsApplied())</span>
+                <span class="method-start">2733395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyIfCategoryFilterIsApplied</span>
+                <span class="method-start">2741713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyIfCategoryFilterIsApplied status=SUCCESS method=DmSearchTest.verifyIfCategory...)</span>
+                <span class="method-start">2745312 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmSearchTest.verifyPriceFilterFunctionality())</span>
+                <span class="method-start">2745398 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPriceFilterFunctionality</span>
-                <span class="method-start">5563 ms</span>
+                <span class="method-start">2750478 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">11510 ms</span>
+                <span class="method-name">browserClose([TestResult name=verifyPriceFilterFunctionality status=SUCCESS method=DmSearchTest.verifyPriceFilter...)</span>
+                <span class="method-start">2754994 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmSearchTest.verifySortByAscending())</span>
+                <span class="method-start">2755076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySortByAscending</span>
+                <span class="method-start">2760903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifySortByAscending status=FAILURE method=DmSearchTest.verifySortByAscending()[pr...)</span>
+                <span class="method-start">2781325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void drogerieMarkt.test.DmSearchTest.verifySortByDescending())</span>
+                <span class="method-start">2781415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySortByDescending</span>
+                <span class="method-start">2786167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifySortByDescending status=FAILURE method=DmSearchTest.verifySortByDescending()[...)</span>
+                <span class="method-start">2787908 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">drogerieMarkt.test.DmHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2787989 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

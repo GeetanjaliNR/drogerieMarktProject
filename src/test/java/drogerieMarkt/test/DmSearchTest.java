@@ -11,7 +11,7 @@ import drogerieMarkt.base.DmBaseClass;
 public class DmSearchTest extends DmBaseClass {
 
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void verifyIfCategoryFilterIsApplied() {
 		productPage.searchProduct("Shampoo");
 		productPage.getProductsLoaded();
@@ -21,7 +21,7 @@ public class DmSearchTest extends DmBaseClass {
 		Assert.assertEquals(totalProductCount, filteredProductCount);		
 	}
 
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void verifySortByAscending() {
 		productPage.searchProduct("Shampoo");
 		productPage.getProductsLoaded();
@@ -35,7 +35,7 @@ public class DmSearchTest extends DmBaseClass {
 	}
 	
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void verifySortByDescending() {
 		productPage.searchProduct("Shampoo");
 		productPage.getProductsLoaded();
@@ -52,10 +52,10 @@ public class DmSearchTest extends DmBaseClass {
 	public void verifyPriceFilterFunctionality(){
 		productPage.searchProduct("Shampoo");
 		productPage.getProductsLoaded();
-		searchPage.setPriceFilter("12", "15");
+		searchPage.setPriceFilter("5", "8");
 		List<Double> productPrice = searchPage.getProductPriceList(); 
 		for(int i =0; i<productPrice.size(); i++) {
-			Assert.assertTrue(productPrice.get(i) >= 12 && productPrice.get(i) <= 15);
+			Assert.assertTrue(productPrice.get(i) >= 5 && productPrice.get(i) <= 8);
 		}
 	}
 	

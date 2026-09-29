@@ -59,11 +59,13 @@ public class DmProductPage {
 	
 	public WebElement getFirstSearchedProduct() {
 		wait.until(ExpectedConditions.visibilityOf(firstSearchedProduct));
+		wait.until(ExpectedConditions.elementToBeClickable(firstSearchedProduct));
 		return firstSearchedProduct;
 	}
 
 	public void goToProductPage() {
 		wait.until(ExpectedConditions.visibilityOf(searchedProductResult));
+		wait.until(ExpectedConditions.visibilityOf(firstSearchedProduct));
 		firstSearchedProduct.click();
 	}
 	

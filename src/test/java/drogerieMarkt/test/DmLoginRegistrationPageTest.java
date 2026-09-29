@@ -11,7 +11,7 @@ import drogerieMarkt.base.DmBaseClass;
 public class DmLoginRegistrationPageTest extends DmBaseClass {
 
 	
-	@Test(enabled=true, priority=7)
+	@Test(enabled=true)
 	public void verifyLoginRedirection() throws Exception {
 		loginRegistrationPage.clickAccountButton();
 		loginRegistrationPage.clickLoginButton();
@@ -20,7 +20,7 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 		Assert.assertTrue(currentURL.contains("web-login"));
 	}
 	
-	@Test(enabled=true, priority=8)
+	@Test(enabled=true)
 	public void verifyRegistrationRedirection() throws Exception {
 		loginRegistrationPage.clickAccountButton();
 		loginRegistrationPage.clickRegistrationButton();
@@ -29,7 +29,7 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 		Assert.assertTrue(currentURL.contains("registration"));
 	}
 	
-	@Test(enabled=true, priority=8)
+	@Test(enabled=true)
 	public void verifyRegistrationFormRadioButtons() throws Exception {
 		loginRegistrationPage.getRegistrationPage();
 		
@@ -57,7 +57,7 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 		Assert.assertTrue(genderRadioButton.get(2).isSelected());	
 	}
 	
-	@Test(enabled=false, priority=9)
+	@Test(enabled=true)
 	public void VerifyfirstName() throws Exception {
 		loginRegistrationPage.getRegistrationPage();
 		
@@ -65,7 +65,7 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 		Assert.assertTrue(loginRegistrationPage.isFirstNameErrorMsgDisplayed());
 	}
 	
-	@Test(enabled=false, priority=10)
+	@Test(enabled=true)
 	public void dateOfBirthValidation() throws Exception {
 		//ensure appropriate error message is shown 
 		loginRegistrationPage.getRegistrationPage();

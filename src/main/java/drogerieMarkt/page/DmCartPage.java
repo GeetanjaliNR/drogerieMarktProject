@@ -44,6 +44,7 @@ public class DmCartPage {
 
 	public void addProductToCart(WebElement product, int expectedCount) {
 		WebElement addToCartQuickButton = product.findElement(By.id("add-direct-to-cart-button"));
+		wait.until(ExpectedConditions.elementToBeClickable(addToCartQuickButton));
 		addToCartQuickButton.click();
 		
 		wait.until(ExpectedConditions.textToBePresentInElement(cartSummary, String.valueOf(expectedCount)));

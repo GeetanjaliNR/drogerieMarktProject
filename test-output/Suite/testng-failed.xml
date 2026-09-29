@@ -3,11 +3,27 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="drogerieMarkt.test.DmCartTest">
+        <methods>
+          <include name="browserClose"/>
+          <include name="verifyCartProductMatchesCartSummary"/>
+          <include name="setup"/>
+          <include name="verifyEmptyCartMessage"/>
+          <include name="verifyCartShowsProductCount"/>
+          <include name="verifyCartPageNavigation"/>
+          <include name="tearDown"/>
+          <include name="reportSetup"/>
+          <include name="verifyCartElementsAreDisplayed"/>
+        </methods>
+      </class> <!-- drogerieMarkt.test.DmCartTest -->
       <class name="drogerieMarkt.test.DmSearchTest">
         <methods>
+          <include name="browserClose"/>
           <include name="setup"/>
+          <include name="verifySortByAscending"/>
           <include name="tearDown"/>
-          <include name="verifyPriceFilterFunctionality"/>
+          <include name="verifySortByDescending"/>
+          <include name="reportSetup"/>
         </methods>
       </class> <!-- drogerieMarkt.test.DmSearchTest -->
     </classes>

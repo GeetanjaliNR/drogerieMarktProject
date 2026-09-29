@@ -13,31 +13,31 @@ import drogerieMarkt.base.DmBaseClass;
 public class DmProductTest extends DmBaseClass{
 	
 	
-	@Test(enabled=false, priority=6)
+	@Test(enabled=true)
 	public void verifyProductsAreDisplayed() throws Exception {
 		boolean productVisibile = productPage.areSearchedProductVisible("book");
 		Assert.assertTrue(productVisibile);
 	}
 
-	@Test(enabled=false, priority=6)
+	@Test(enabled=true)
 	public void verifyProductPageNaviagation() throws Exception {
 		productPage.loadProductPage("book");
 		Assert.assertTrue(productPage.isProductHeadingVisible());
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void verifyProductPriceIsDisplayed() {
 		productPage.loadProductPage("book");
 		Assert.assertTrue(productPage.isProductDisplayed());
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void verifyAddToCartButtonEnabled() {
 		productPage.loadProductPage("book");
 		Assert.assertTrue(productPage.isButtonEnabled());
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void verifyProductQuatityDropdown() {
 		productPage.loadProductPage("book");
 		Select quantitySelect = productPage.getQuantitySelectElement();
@@ -61,7 +61,7 @@ public class DmProductTest extends DmBaseClass{
 		};
 	}
 	
-	@Test(enabled = false, dataProvider = "quantites")
+	@Test(enabled = true, dataProvider = "quantites")
 	public void verifyQuantityChange(int quantity) {
 		productPage.loadProductPage("Shampoo");
 		Select quantitySelect = productPage.getQuantitySelectElement();

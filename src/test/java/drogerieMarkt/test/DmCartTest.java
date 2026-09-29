@@ -10,7 +10,7 @@ import drogerieMarkt.base.DmBaseClass;
 
 public class DmCartTest extends DmBaseClass {
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void verifyCartShowsProductCount(){
 		productPage.searchProduct("vitamin D");
 		WebElement productOne = productPage.getFirstSearchedProduct();
@@ -28,14 +28,14 @@ public class DmCartTest extends DmBaseClass {
 		Assert.assertEquals(cartSummary, String.valueOf(3));
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void verifyCartPageNavigation() {
 		//verify that user is navigated to cart page when cart button is pressed
 		cartPage.clickCartButton();
 		Assert.assertEquals(driver.getCurrentUrl(), "https://www.dm.de/cart");
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void verifyEmptyCartMessage() {
 		//verify cart message when no product are added to the cart
 		cartPage.clickCartButton();
@@ -44,7 +44,7 @@ public class DmCartTest extends DmBaseClass {
 		Assert.assertTrue(emptyCartMessage.contains("keine Artikel im Warenkorb"));
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void verifyCartElementsAreDisplayed() {
 		
 		productPage.searchProduct("shampoo");
@@ -60,12 +60,9 @@ public class DmCartTest extends DmBaseClass {
 		boolean isTotalPriceDisplayed = cartPage.isTotolPriceDisplayed();
 		boolean isAvailabilitySummaryDisplayed = cartPage.isAvailabilitySummaryDisplayed();
 		boolean isCartCheckoutButtonEnabled = cartPage.isCartCheckoutButtonEnabled();
-
 		
 		Assert.assertTrue(isTotalPriceDisplayed);
-	
 		Assert.assertTrue(isAvailabilitySummaryDisplayed);
-		
 		Assert.assertTrue(isCartCheckoutButtonEnabled);
 	}
 	

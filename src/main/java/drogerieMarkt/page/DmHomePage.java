@@ -36,6 +36,7 @@ public class DmHomePage {
 	
 	@FindBy(xpath="//*[@id=\"dm-view\"]/div/div/div[1]/a")
 	WebElement logo;
+//	data-dmid="stage-slider"
 	
 	@FindBy(xpath = "//div[@data-dmid='stage-teaser-img-container']/div/img")
 	List<WebElement> caroselImages;
@@ -130,12 +131,13 @@ public class DmHomePage {
 	}
 
 	public List<WebElement> getCaroselImages() {
-		System.out.println(carousel);
+		System.out.println("carousel-----" +carousel);
+		wait.until(ExpectedConditions.visibilityOfAllElements(caroselImages));
 		return caroselImages;
 	}
 	
 	public long getCarouselScrollPosition() {
-		
+		wait.until(ExpectedConditions.visibilityOf(carousel));
 		 WebElement carousel = wait.until(
 			        ExpectedConditions.presenceOfElementLocated(
 			            By.cssSelector("ol[tabindex='0']")
