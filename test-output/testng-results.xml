@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="29" passed="22" failed="3" skipped="4">
+<testng-results ignored="0" total="29" passed="28" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-29T13:27:23 CEST" name="Suite" finished-at="2026-09-29T14:13:51 CEST" duration-ms="2788128">
+  <suite started-at="2026-10-02T11:13:01 CEST" name="Suite" finished-at="2026-10-02T11:17:18 CEST" duration-ms="256965">
     <groups>
     </groups>
-    <test started-at="2026-09-29T13:27:23 CEST" name="Test" finished-at="2026-09-29T14:13:51 CEST" duration-ms="2788128">
+    <test started-at="2026-10-02T11:13:01 CEST" name="Test" finished-at="2026-10-02T11:17:18 CEST" duration-ms="256965">
       <class name="drogerieMarkt.test.DmSearchTest">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:12:57 CEST" name="setup" finished-at="2026-09-29T14:13:05 CEST" duration-ms="8318" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:37 CEST" name="setup" finished-at="2026-10-02T11:16:42 CEST" duration-ms="4667" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyIfCategoryFilterIsApplied()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:05 CEST" name="verifyIfCategoryFilterIsApplied" finished-at="2026-09-29T14:13:09 CEST" duration-ms="3598" status="PASS">
+        <test-method signature="verifyIfCategoryFilterIsApplied()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:42 CEST" name="verifyIfCategoryFilterIsApplied" finished-at="2026-10-02T11:16:45 CEST" duration-ms="3222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfCategoryFilterIsApplied -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:09 CEST" name="browserClose" finished-at="2026-09-29T14:13:09 CEST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:45 CEST" name="browserClose" finished-at="2026-10-02T11:16:45 CEST" duration-ms="83" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:09 CEST" name="setup" finished-at="2026-09-29T14:13:14 CEST" duration-ms="5080" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:45 CEST" name="setup" finished-at="2026-10-02T11:16:50 CEST" duration-ms="4788" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPriceFilterFunctionality()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:14 CEST" name="verifyPriceFilterFunctionality" finished-at="2026-09-29T14:13:18 CEST" duration-ms="4515" status="PASS">
+        <test-method signature="verifyPriceFilterFunctionality()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:50 CEST" name="verifyPriceFilterFunctionality" finished-at="2026-10-02T11:16:55 CEST" duration-ms="4533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPriceFilterFunctionality -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:18 CEST" name="browserClose" finished-at="2026-09-29T14:13:18 CEST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:55 CEST" name="browserClose" finished-at="2026-10-02T11:16:55 CEST" duration-ms="81" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:18 CEST" name="setup" finished-at="2026-09-29T14:13:24 CEST" duration-ms="5827" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:55 CEST" name="setup" finished-at="2026-10-02T11:16:59 CEST" duration-ms="4221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,93 +70,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySortByAscending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:24 CEST" name="verifySortByAscending" finished-at="2026-09-29T14:13:45 CEST" duration-ms="20420" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="product-tiles"]'
-(tried for 20 seconds with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="product-tiles"]'
-(tried for 20 seconds with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at drogerieMarkt.page.DmProductPage.getProductsLoaded(DmProductPage.java:51)
-at drogerieMarkt.test.DmSearchTest.verifySortByAscending(DmSearchTest.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-tiles"]"}
-  (Session info: chrome=154.0.8037.58)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ee5dfd336fd9782549f70a7baf7af15, findElement {using=xpath, value=//*[@id="product-tiles"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55835}, goog:processID: 72777, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55835/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ee5dfd336fd9782549f70a7baf7af15
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="verifySortByAscending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:59 CEST" name="verifySortByAscending" finished-at="2026-10-02T11:17:06 CEST" duration-ms="6711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByAscending -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:45 CEST" name="browserClose" finished-at="2026-09-29T14:13:45 CEST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:17:06 CEST" name="browserClose" finished-at="2026-10-02T11:17:06 CEST" duration-ms="110" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySortByAscending status=FAILURE method=DmSearchTest.verifySortByAscending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd] output={null}]]]>
+                <![CDATA[[TestResult name=verifySortByAscending status=SUCCESS method=DmSearchTest.verifySortByAscending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:45 CEST" name="setup" finished-at="2026-09-29T14:13:49 CEST" duration-ms="4752" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:17:06 CEST" name="setup" finished-at="2026-10-02T11:17:11 CEST" duration-ms="5272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,45 +96,260 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySortByDescending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:49 CEST" name="verifySortByDescending" finished-at="2026-09-29T14:13:51 CEST" duration-ms="1740" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method signature="verifySortByDescending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:17:11 CEST" name="verifySortByDescending" finished-at="2026-10-02T11:17:18 CEST" duration-ms="6690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByDescending -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:17:18 CEST" name="browserClose" finished-at="2026-10-02T11:17:18 CEST" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySortByDescending status=SUCCESS method=DmSearchTest.verifySortByDescending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- drogerieMarkt.test.DmSearchTest -->
+      <class name="drogerieMarkt.test.DmProductTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:17 CEST" name="setup" finished-at="2026-10-02T11:14:23 CEST" duration-ms="5288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyAddToCartButtonEnabled()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddToCartButtonEnabled()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:23 CEST" name="verifyAddToCartButtonEnabled" finished-at="2026-10-02T11:14:24 CEST" duration-ms="1835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartButtonEnabled -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:24 CEST" name="browserClose" finished-at="2026-10-02T11:14:25 CEST" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddToCartButtonEnabled status=SUCCESS method=DmProductTest.verifyAddToCartButtonEnabled()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:25 CEST" name="setup" finished-at="2026-10-02T11:14:29 CEST" duration-ms="4752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyProductPageNaviagation() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductPageNaviagation()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:29 CEST" name="verifyProductPageNaviagation" finished-at="2026-10-02T11:14:31 CEST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageNaviagation -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:31 CEST" name="browserClose" finished-at="2026-10-02T11:14:31 CEST" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPageNaviagation status=SUCCESS method=DmProductTest.verifyProductPageNaviagation()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:31 CEST" name="setup" finished-at="2026-10-02T11:14:36 CEST" duration-ms="4995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyProductPriceIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductPriceIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:36 CEST" name="verifyProductPriceIsDisplayed" finished-at="2026-10-02T11:14:38 CEST" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPriceIsDisplayed -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:38 CEST" name="browserClose" finished-at="2026-10-02T11:14:38 CEST" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPriceIsDisplayed status=SUCCESS method=DmProductTest.verifyProductPriceIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:38 CEST" name="setup" finished-at="2026-10-02T11:14:42 CEST" duration-ms="4763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyProductQuatityDropdown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductQuatityDropdown()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:42 CEST" name="verifyProductQuatityDropdown" finished-at="2026-10-02T11:14:44 CEST" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductQuatityDropdown -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:44 CEST" name="browserClose" finished-at="2026-10-02T11:14:44 CEST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductQuatityDropdown status=SUCCESS method=DmProductTest.verifyProductQuatityDropdown()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:44 CEST" name="setup" finished-at="2026-10-02T11:14:49 CEST" duration-ms="5034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyProductsAreDisplayed() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:49 CEST" name="verifyProductsAreDisplayed" finished-at="2026-10-02T11:14:50 CEST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsAreDisplayed -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:50 CEST" name="browserClose" finished-at="2026-10-02T11:14:50 CEST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductsAreDisplayed status=SUCCESS method=DmProductTest.verifyProductsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:50 CEST" name="setup" finished-at="2026-10-02T11:14:54 CEST" duration-ms="4106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:54 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-02T11:14:57 CEST" duration-ms="2151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuantityChange -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:57 CEST" name="browserClose" finished-at="2026-10-02T11:14:57 CEST" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:57 CEST" name="setup" finished-at="2026-10-02T11:15:01 CEST" duration-ms="4270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:01 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-02T11:15:04 CEST" duration-ms="2878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuantityChange -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:04 CEST" name="browserClose" finished-at="2026-10-02T11:15:04 CEST" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:04 CEST" name="setup" finished-at="2026-10-02T11:15:08 CEST" duration-ms="3877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:08 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-02T11:15:29 CEST" duration-ms="21284" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[stale element reference: stale element not found in the current frame
-  (Session info: chrome=154.0.8037.58)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+              <![CDATA[Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dm\-dropdown"}.
+(tried for 20 seconds with 500 milliseconds interval)
 Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [54844cf01482461a307990cad5e260cf, isElementDisplayed {id=f.6915A293AE29A0146FED4F17BDA2D7EE.d.49D046D96F018894A04EAB7C05F6D1AF.e.137}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56028}, goog:processID: 72827, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56028/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (54844cf01482461a307990cad5e260cf)] -> xpath: //div[@id="product-tiles"]//div[@data-dmid="product-tile-container"]//span[@data-dmid="price-localized"]]
-Session ID: 54844cf01482461a307990cad5e260cf]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.97, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64982}, goog:processID: 13135, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64982/devtoo..., se:cdpVersion: 154.0.8037.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9be9df8108c5d335bb868fcad854ece9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=154.0.8037.58)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dm\-dropdown"}.
+(tried for 20 seconds with 500 milliseconds interval)
 Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [54844cf01482461a307990cad5e260cf, isElementDisplayed {id=f.6915A293AE29A0146FED4F17BDA2D7EE.d.49D046D96F018894A04EAB7C05F6D1AF.e.137}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56028}, goog:processID: 72827, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56028/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (54844cf01482461a307990cad5e260cf)] -> xpath: //div[@id="product-tiles"]//div[@data-dmid="product-tile-container"]//span[@data-dmid="price-localized"]]
-Session ID: 54844cf01482461a307990cad5e260cf
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
-at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:284)
-at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:318)
-at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:307)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-at drogerieMarkt.page.DmSearchPage.getProductPriceList(DmSearchPage.java:80)
-at drogerieMarkt.test.DmSearchTest.verifySortByDescending(DmSearchTest.java:44)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.97, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64982}, goog:processID: 13135, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64982/devtoo..., se:cdpVersion: 154.0.8037.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9be9df8108c5d335bb868fcad854ece9
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+at drogerieMarkt.page.DmProductPage.getQuantitySelectElement(DmProductPage.java:96)
+at drogerieMarkt.test.DmProductTest.verifyQuantityChange(DmProductTest.java:67)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -236,187 +380,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySortByDescending -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-09-29T14:13:51 CEST" name="browserClose" finished-at="2026-09-29T14:13:51 CEST" duration-ms="81" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifySortByDescending status=FAILURE method=DmSearchTest.verifySortByDescending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- drogerieMarkt.test.DmSearchTest -->
-      <class name="drogerieMarkt.test.DmProductTest">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:28:35 CEST" name="setup" finished-at="2026-09-29T13:28:40 CEST" duration-ms="5350" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyAddToCartButtonEnabled()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyAddToCartButtonEnabled()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:28:40 CEST" name="verifyAddToCartButtonEnabled" finished-at="2026-09-29T13:28:42 CEST" duration-ms="1861" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddToCartButtonEnabled -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:28:42 CEST" name="browserClose" finished-at="2026-09-29T13:28:42 CEST" duration-ms="85" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAddToCartButtonEnabled status=SUCCESS method=DmProductTest.verifyAddToCartButtonEnabled()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:28:42 CEST" name="setup" finished-at="2026-09-29T13:28:47 CEST" duration-ms="5238" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyProductPageNaviagation() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductPageNaviagation()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:28:47 CEST" name="verifyProductPageNaviagation" finished-at="2026-09-29T13:28:49 CEST" duration-ms="1857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductPageNaviagation -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:28:49 CEST" name="browserClose" finished-at="2026-09-29T13:28:49 CEST" duration-ms="87" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyProductPageNaviagation status=SUCCESS method=DmProductTest.verifyProductPageNaviagation()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:28:49 CEST" name="setup" finished-at="2026-09-29T13:28:55 CEST" duration-ms="5343" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyProductPriceIsDisplayed()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductPriceIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:28:55 CEST" name="verifyProductPriceIsDisplayed" finished-at="2026-09-29T13:28:56 CEST" duration-ms="976" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductPriceIsDisplayed -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:28:56 CEST" name="browserClose" finished-at="2026-09-29T13:28:56 CEST" duration-ms="82" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyProductPriceIsDisplayed status=SUCCESS method=DmProductTest.verifyProductPriceIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:28:56 CEST" name="setup" finished-at="2026-09-29T13:29:00 CEST" duration-ms="4124" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyProductQuatityDropdown()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductQuatityDropdown()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:00 CEST" name="verifyProductQuatityDropdown" finished-at="2026-09-29T13:29:01 CEST" duration-ms="1474" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductQuatityDropdown -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:01 CEST" name="browserClose" finished-at="2026-09-29T13:29:01 CEST" duration-ms="85" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyProductQuatityDropdown status=SUCCESS method=DmProductTest.verifyProductQuatityDropdown()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:01 CEST" name="setup" finished-at="2026-09-29T13:29:07 CEST" duration-ms="5371" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyProductsAreDisplayed() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:07 CEST" name="verifyProductsAreDisplayed" finished-at="2026-09-29T13:29:08 CEST" duration-ms="1261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductsAreDisplayed -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:08 CEST" name="browserClose" finished-at="2026-09-29T13:29:08 CEST" duration-ms="87" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyProductsAreDisplayed status=SUCCESS method=DmProductTest.verifyProductsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:08 CEST" name="setup" finished-at="2026-09-29T13:29:12 CEST" duration-ms="3905" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:12 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-09-29T13:29:14 CEST" duration-ms="2037" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuantityChange -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:14 CEST" name="browserClose" finished-at="2026-09-29T13:29:14 CEST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:29 CEST" name="browserClose" finished-at="2026-10-02T11:15:40 CEST" duration-ms="10587" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=verifyQuantityChange status=FAILURE method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:14 CEST" name="setup" finished-at="2026-09-29T13:29:19 CEST" duration-ms="4559" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:40 CEST" name="setup" finished-at="2026-10-02T11:15:44 CEST" duration-ms="4491" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -427,73 +406,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:19 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-09-29T13:29:20 CEST" duration-ms="1658" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyQuantityChange -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:20 CEST" name="browserClose" finished-at="2026-09-29T13:29:20 CEST" duration-ms="108" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:20 CEST" name="setup" finished-at="2026-09-29T13:29:26 CEST" duration-ms="5338" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:26 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-09-29T13:29:27 CEST" duration-ms="1641" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyQuantityChange -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:27 CEST" name="browserClose" finished-at="2026-09-29T13:29:27 CEST" duration-ms="82" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:27 CEST" name="setup" finished-at="2026-09-29T13:29:31 CEST" duration-ms="3963" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:31 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-09-29T13:29:33 CEST" duration-ms="1668" status="PASS">
+        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:44 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-02T11:15:46 CEST" duration-ms="1983" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -504,7 +417,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuantityChange -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-09-29T13:29:33 CEST" name="browserClose" finished-at="2026-09-29T13:29:33 CEST" duration-ms="317" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:46 CEST" name="browserClose" finished-at="2026-10-02T11:15:46 CEST" duration-ms="91" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -517,7 +430,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- browserClose -->
       </class> <!-- drogerieMarkt.test.DmProductTest -->
       <class name="drogerieMarkt.test.DmCartTest">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T13:29:33 CEST" name="setup" finished-at="2026-09-29T13:29:38 CEST" duration-ms="4505" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:15:46 CEST" name="setup" finished-at="2026-10-02T11:15:51 CEST" duration-ms="4395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -528,75 +441,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCartElementsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T13:29:38 CEST" name="verifyCartElementsAreDisplayed" finished-at="2026-09-29T14:03:57 CEST" duration-ms="2058639" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to have text "2". Current text: "1".
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55089}, goog:processID: 72634, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55089/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14810aa9f0c3d820ea204d66c7c964f3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to have text "2". Current text: "1".
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55089}, goog:processID: 72634, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55089/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14810aa9f0c3d820ea204d66c7c964f3
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at drogerieMarkt.page.DmCartPage.addProductToCart(DmCartPage.java:50)
-at drogerieMarkt.test.DmCartTest.verifyCartElementsAreDisplayed(DmCartTest.java:56)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="verifyCartElementsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:15:51 CEST" name="verifyCartElementsAreDisplayed" finished-at="2026-10-02T11:15:58 CEST" duration-ms="7629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartElementsAreDisplayed -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:03:57 CEST" name="browserClose" finished-at="2026-09-29T14:03:57 CEST" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:15:58 CEST" name="browserClose" finished-at="2026-10-02T11:15:58 CEST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCartElementsAreDisplayed status=FAILURE method=DmCartTest.verifyCartElementsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCartElementsAreDisplayed status=SUCCESS method=DmCartTest.verifyCartElementsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:03:57 CEST" name="setup" finished-at="2026-09-29T14:12:57 CEST" duration-ms="539988" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:15:58 CEST" name="setup" finished-at="2026-10-02T11:16:04 CEST" duration-ms="5516" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -604,401 +464,105 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
-(tried for 20 seconds with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
-(tried for 20 seconds with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at drogerieMarkt.page.DmHomePage.acceptCookies(DmHomePage.java:109)
-at drogerieMarkt.base.DmBaseClass.setup(DmBaseClass.java:70)
-at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-testid='uc-accept-all-button']"}
-  (Session info: chrome=154.0.8037.58)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d3714e3208c2c4fe682799cf549ef7e7, findElementFromShadowRoot {value=[data-testid='uc-accept-all-button'], shadowId=f.57A78214C9D3364440D83DEA8274B927.d.9D25542102BB36AF4B3D5595EB9126DB.e.77, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55392}, goog:processID: 72661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55392/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d3714e3208c2c4fe682799cf549ef7e7
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
-at org.openqa.selenium.remote.ShadowRoot.findElement(ShadowRoot.java:55)
-at drogerieMarkt.page.DmHomePage.lambda$0(DmHomePage.java:111)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-... 33 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCartPageNavigation()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="verifyCartPageNavigation" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
-(tried for 20 seconds with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
-(tried for 20 seconds with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at drogerieMarkt.page.DmHomePage.acceptCookies(DmHomePage.java:109)
-at drogerieMarkt.base.DmBaseClass.setup(DmBaseClass.java:70)
-at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-testid='uc-accept-all-button']"}
-  (Session info: chrome=154.0.8037.58)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d3714e3208c2c4fe682799cf549ef7e7, findElementFromShadowRoot {value=[data-testid='uc-accept-all-button'], shadowId=f.57A78214C9D3364440D83DEA8274B927.d.9D25542102BB36AF4B3D5595EB9126DB.e.77, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55392}, goog:processID: 72661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55392/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d3714e3208c2c4fe682799cf549ef7e7
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
-at org.openqa.selenium.remote.ShadowRoot.findElement(ShadowRoot.java:55)
-at drogerieMarkt.page.DmHomePage.lambda$0(DmHomePage.java:111)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-... 33 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="verifyCartPageNavigation()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:04 CEST" name="verifyCartPageNavigation" finished-at="2026-10-02T11:16:04 CEST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartPageNavigation -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="browserClose" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:04 CEST" name="browserClose" finished-at="2026-10-02T11:16:04 CEST" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartPageNavigation status=SUCCESS method=DmCartTest.verifyCartPageNavigation()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method signature="verifyCartProductMatchesCartSummary()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="verifyCartProductMatchesCartSummary" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
-(tried for 20 seconds with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
-(tried for 20 seconds with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at drogerieMarkt.page.DmHomePage.acceptCookies(DmHomePage.java:109)
-at drogerieMarkt.base.DmBaseClass.setup(DmBaseClass.java:70)
-at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-testid='uc-accept-all-button']"}
-  (Session info: chrome=154.0.8037.58)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d3714e3208c2c4fe682799cf549ef7e7, findElementFromShadowRoot {value=[data-testid='uc-accept-all-button'], shadowId=f.57A78214C9D3364440D83DEA8274B927.d.9D25542102BB36AF4B3D5595EB9126DB.e.77, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55392}, goog:processID: 72661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55392/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d3714e3208c2c4fe682799cf549ef7e7
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
-at org.openqa.selenium.remote.ShadowRoot.findElement(ShadowRoot.java:55)
-at drogerieMarkt.page.DmHomePage.lambda$0(DmHomePage.java:111)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-... 33 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:04 CEST" name="setup" finished-at="2026-10-02T11:16:09 CEST" duration-ms="5332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmCartTest.verifyCartProductMatchesCartSummary()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCartProductMatchesCartSummary()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:09 CEST" name="verifyCartProductMatchesCartSummary" finished-at="2026-10-02T11:16:16 CEST" duration-ms="6904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartProductMatchesCartSummary -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="setup" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="browserClose" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:16 CEST" name="browserClose" finished-at="2026-10-02T11:16:16 CEST" duration-ms="90" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartProductMatchesCartSummary status=SUCCESS method=DmCartTest.verifyCartProductMatchesCartSummary()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method signature="verifyCartShowsProductCount()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="verifyCartShowsProductCount" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
-(tried for 20 seconds with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
-(tried for 20 seconds with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at drogerieMarkt.page.DmHomePage.acceptCookies(DmHomePage.java:109)
-at drogerieMarkt.base.DmBaseClass.setup(DmBaseClass.java:70)
-at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-testid='uc-accept-all-button']"}
-  (Session info: chrome=154.0.8037.58)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d3714e3208c2c4fe682799cf549ef7e7, findElementFromShadowRoot {value=[data-testid='uc-accept-all-button'], shadowId=f.57A78214C9D3364440D83DEA8274B927.d.9D25542102BB36AF4B3D5595EB9126DB.e.77, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55392}, goog:processID: 72661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55392/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d3714e3208c2c4fe682799cf549ef7e7
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
-at org.openqa.selenium.remote.ShadowRoot.findElement(ShadowRoot.java:55)
-at drogerieMarkt.page.DmHomePage.lambda$0(DmHomePage.java:111)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-... 33 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:16 CEST" name="setup" finished-at="2026-10-02T11:16:22 CEST" duration-ms="5243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmCartTest.verifyCartShowsProductCount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCartShowsProductCount()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:22 CEST" name="verifyCartShowsProductCount" finished-at="2026-10-02T11:16:31 CEST" duration-ms="9470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartShowsProductCount -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="setup" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="browserClose" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:31 CEST" name="browserClose" finished-at="2026-10-02T11:16:31 CEST" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartShowsProductCount status=SUCCESS method=DmCartTest.verifyCartShowsProductCount()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method signature="verifyEmptyCartMessage()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="verifyEmptyCartMessage" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
-(tried for 20 seconds with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for drogerieMarkt.page.DmHomePage$$Lambda$686/0x00000003003682a0@3f5ac587
-(tried for 20 seconds with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at drogerieMarkt.page.DmHomePage.acceptCookies(DmHomePage.java:109)
-at drogerieMarkt.base.DmBaseClass.setup(DmBaseClass.java:70)
-at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-testid='uc-accept-all-button']"}
-  (Session info: chrome=154.0.8037.58)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d3714e3208c2c4fe682799cf549ef7e7, findElementFromShadowRoot {value=[data-testid='uc-accept-all-button'], shadowId=f.57A78214C9D3364440D83DEA8274B927.d.9D25542102BB36AF4B3D5595EB9126DB.e.77, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55392}, goog:processID: 72661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55392/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d3714e3208c2c4fe682799cf549ef7e7
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
-at org.openqa.selenium.remote.ShadowRoot.findElement(ShadowRoot.java:55)
-at drogerieMarkt.page.DmHomePage.lambda$0(DmHomePage.java:111)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-... 33 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEmptyCartMessage -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="setup" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:31 CEST" name="setup" finished-at="2026-10-02T11:16:36 CEST" duration-ms="5214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void drogerieMarkt.test.DmCartTest.verifyEmptyCartMessage()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-09-29T14:12:57 CEST" name="browserClose" finished-at="2026-09-29T14:12:57 CEST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyEmptyCartMessage()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:36 CEST" name="verifyEmptyCartMessage" finished-at="2026-10-02T11:16:37 CEST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCartMessage -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:37 CEST" name="browserClose" finished-at="2026-10-02T11:16:37 CEST" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptyCartMessage status=SUCCESS method=DmCartTest.verifyEmptyCartMessage()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- drogerieMarkt.test.DmCartTest -->
       <class name="drogerieMarkt.test.DmLoginRegistrationPageTest">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:02 CEST" name="setup" finished-at="2026-09-29T13:28:06 CEST" duration-ms="4512" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:45 CEST" name="setup" finished-at="2026-10-02T11:13:50 CEST" duration-ms="5214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1009,11 +573,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyfirstName()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:06 CEST" name="VerifyfirstName" finished-at="2026-09-29T13:28:08 CEST" duration-ms="1504" status="PASS">
+        <test-method signature="VerifyfirstName()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:50 CEST" name="VerifyfirstName" finished-at="2026-10-02T11:13:52 CEST" duration-ms="1490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyfirstName -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:08 CEST" name="browserClose" finished-at="2026-09-29T13:28:08 CEST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:52 CEST" name="browserClose" finished-at="2026-10-02T11:13:52 CEST" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1024,7 +588,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:08 CEST" name="setup" finished-at="2026-09-29T13:28:13 CEST" duration-ms="4981" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:52 CEST" name="setup" finished-at="2026-10-02T11:13:57 CEST" duration-ms="5002" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1035,11 +599,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dateOfBirthValidation()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:13 CEST" name="dateOfBirthValidation" finished-at="2026-09-29T13:28:14 CEST" duration-ms="1664" status="PASS">
+        <test-method signature="dateOfBirthValidation()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:57 CEST" name="dateOfBirthValidation" finished-at="2026-10-02T11:13:58 CEST" duration-ms="1652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dateOfBirthValidation -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:14 CEST" name="browserClose" finished-at="2026-09-29T13:28:15 CEST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:58 CEST" name="browserClose" finished-at="2026-10-02T11:13:58 CEST" duration-ms="85" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1050,7 +614,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:15 CEST" name="setup" finished-at="2026-09-29T13:28:19 CEST" duration-ms="4747" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:58 CEST" name="setup" finished-at="2026-10-02T11:14:02 CEST" duration-ms="3808" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1061,11 +625,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:19 CEST" name="verifyLoginRedirection" finished-at="2026-09-29T13:28:21 CEST" duration-ms="1633" status="PASS">
+        <test-method signature="verifyLoginRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:02 CEST" name="verifyLoginRedirection" finished-at="2026-10-02T11:14:04 CEST" duration-ms="1621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginRedirection -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:21 CEST" name="browserClose" finished-at="2026-09-29T13:28:21 CEST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:04 CEST" name="browserClose" finished-at="2026-10-02T11:14:04 CEST" duration-ms="99" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1076,7 +640,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:21 CEST" name="setup" finished-at="2026-09-29T13:28:26 CEST" duration-ms="5286" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:04 CEST" name="setup" finished-at="2026-10-02T11:14:09 CEST" duration-ms="5219" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1087,11 +651,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegistrationFormRadioButtons()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:26 CEST" name="verifyRegistrationFormRadioButtons" finished-at="2026-09-29T13:28:28 CEST" duration-ms="1626" status="PASS">
+        <test-method signature="verifyRegistrationFormRadioButtons()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:09 CEST" name="verifyRegistrationFormRadioButtons" finished-at="2026-10-02T11:14:11 CEST" duration-ms="1648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationFormRadioButtons -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:28 CEST" name="browserClose" finished-at="2026-09-29T13:28:28 CEST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:11 CEST" name="browserClose" finished-at="2026-10-02T11:14:11 CEST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1102,7 +666,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:28 CEST" name="setup" finished-at="2026-09-29T13:28:33 CEST" duration-ms="5270" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:11 CEST" name="setup" finished-at="2026-10-02T11:14:16 CEST" duration-ms="4951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1113,11 +677,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegistrationRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:33 CEST" name="verifyRegistrationRedirection" finished-at="2026-09-29T13:28:35 CEST" duration-ms="1326" status="PASS">
+        <test-method signature="verifyRegistrationRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:16 CEST" name="verifyRegistrationRedirection" finished-at="2026-10-02T11:14:17 CEST" duration-ms="1446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationRedirection -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-09-29T13:28:35 CEST" name="browserClose" finished-at="2026-09-29T13:28:35 CEST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:17 CEST" name="browserClose" finished-at="2026-10-02T11:14:17 CEST" duration-ms="131" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1130,11 +694,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
         </test-method> <!-- browserClose -->
       </class> <!-- drogerieMarkt.test.DmLoginRegistrationPageTest -->
       <class name="drogerieMarkt.test.DmHomePageTest">
-        <test-method is-config="true" signature="reportSetup()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:23 CEST" name="reportSetup" finished-at="2026-09-29T13:27:23 CEST" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:01 CEST" name="reportSetup" finished-at="2026-10-02T11:13:01 CEST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSetup -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:23 CEST" name="setup" finished-at="2026-09-29T13:27:29 CEST" duration-ms="5221" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:01 CEST" name="setup" finished-at="2026-10-02T11:13:14 CEST" duration-ms="13209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1145,11 +709,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageLinkValidation()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:29 CEST" name="homePageLinkValidation" finished-at="2026-09-29T13:27:31 CEST" duration-ms="2609" status="PASS">
+        <test-method signature="homePageLinkValidation()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:14 CEST" name="homePageLinkValidation" finished-at="2026-10-02T11:13:17 CEST" duration-ms="2625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageLinkValidation -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:31 CEST" name="browserClose" finished-at="2026-09-29T13:27:31 CEST" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:17 CEST" name="browserClose" finished-at="2026-10-02T11:13:17 CEST" duration-ms="92" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1160,7 +724,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:31 CEST" name="setup" finished-at="2026-09-29T13:27:37 CEST" duration-ms="5336" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:17 CEST" name="setup" finished-at="2026-10-02T11:13:22 CEST" duration-ms="4956" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1171,11 +735,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCarouselNextButton()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:37 CEST" name="verifyCarouselNextButton" finished-at="2026-09-29T13:27:39 CEST" duration-ms="2683" status="PASS">
+        <test-method signature="verifyCarouselNextButton()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:22 CEST" name="verifyCarouselNextButton" finished-at="2026-10-02T11:13:24 CEST" duration-ms="2180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCarouselNextButton -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:39 CEST" name="browserClose" finished-at="2026-09-29T13:27:39 CEST" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:24 CEST" name="browserClose" finished-at="2026-10-02T11:13:24 CEST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1186,7 +750,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:39 CEST" name="setup" finished-at="2026-09-29T13:27:44 CEST" duration-ms="4932" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:24 CEST" name="setup" finished-at="2026-10-02T11:13:29 CEST" duration-ms="4959" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1197,11 +761,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHomePageTitle()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:44 CEST" name="verifyHomePageTitle" finished-at="2026-09-29T13:27:44 CEST" duration-ms="19" status="PASS">
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:29 CEST" name="verifyHomePageTitle" finished-at="2026-10-02T11:13:29 CEST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:44 CEST" name="browserClose" finished-at="2026-09-29T13:27:44 CEST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:29 CEST" name="browserClose" finished-at="2026-10-02T11:13:29 CEST" duration-ms="82" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1212,7 +776,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:44 CEST" name="setup" finished-at="2026-09-29T13:27:49 CEST" duration-ms="4156" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:29 CEST" name="setup" finished-at="2026-10-02T11:13:33 CEST" duration-ms="4191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1223,11 +787,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyIfCaroselIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:49 CEST" name="verifyIfCaroselIsDisplayed" finished-at="2026-09-29T13:27:49 CEST" duration-ms="751" status="PASS">
+        <test-method signature="verifyIfCaroselIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:33 CEST" name="verifyIfCaroselIsDisplayed" finished-at="2026-10-02T11:13:34 CEST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfCaroselIsDisplayed -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:49 CEST" name="browserClose" finished-at="2026-09-29T13:27:49 CEST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:34 CEST" name="browserClose" finished-at="2026-10-02T11:13:34 CEST" duration-ms="85" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1238,7 +802,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:49 CEST" name="setup" finished-at="2026-09-29T13:27:55 CEST" duration-ms="5479" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:34 CEST" name="setup" finished-at="2026-10-02T11:13:38 CEST" duration-ms="4178" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1249,11 +813,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPresenceOfLogo()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:55 CEST" name="verifyPresenceOfLogo" finished-at="2026-09-29T13:27:55 CEST" duration-ms="123" status="PASS">
+        <test-method signature="verifyPresenceOfLogo()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:38 CEST" name="verifyPresenceOfLogo" finished-at="2026-10-02T11:13:38 CEST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPresenceOfLogo -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:55 CEST" name="browserClose" finished-at="2026-09-29T13:27:55 CEST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:38 CEST" name="browserClose" finished-at="2026-10-02T11:13:38 CEST" duration-ms="85" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1264,7 +828,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:27:55 CEST" name="setup" finished-at="2026-09-29T13:28:00 CEST" duration-ms="5323" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:38 CEST" name="setup" finished-at="2026-10-02T11:13:43 CEST" duration-ms="5322" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1275,11 +839,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductSearch()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:28:00 CEST" name="verifyProductSearch" finished-at="2026-09-29T13:28:02 CEST" duration-ms="1216" status="PASS">
+        <test-method signature="verifyProductSearch()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:43 CEST" name="verifyProductSearch" finished-at="2026-10-02T11:13:45 CEST" duration-ms="1308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductSearch -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T13:28:02 CEST" name="browserClose" finished-at="2026-09-29T13:28:02 CEST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:45 CEST" name="browserClose" finished-at="2026-10-02T11:13:45 CEST" duration-ms="85" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1290,7 +854,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-09-29T14:13:51 CEST" name="tearDown" finished-at="2026-09-29T14:13:51 CEST" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:17:18 CEST" name="tearDown" finished-at="2026-10-02T11:17:18 CEST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

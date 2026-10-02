@@ -17,6 +17,7 @@ public class DmHomePageTest extends DmBaseClass{
 	
 	@Test(enabled = true)
 	public void verifyHomePageTitle() {
+		//verify home page title is as expected
 		String actualTitle = homePage.getPageTitle();
 		
 		String expectedTitle = "Bei dm-drogerie markt online einkaufen | dm";
@@ -26,6 +27,7 @@ public class DmHomePageTest extends DmBaseClass{
 	
 	@Test(enabled = true)
 	public void homePageLinkValidation() {
+		//verify home page main menu links are functional 
 		List<String> brokenLinksList = homePage.validateCategoryLinks();
 		Assert.assertTrue(brokenLinksList.isEmpty(),  "Broken links found: " + brokenLinksList);
 	}
@@ -33,21 +35,24 @@ public class DmHomePageTest extends DmBaseClass{
 	
 	@Test(enabled = true)
 	public void verifyPresenceOfLogo() {
-	Assert.assertTrue(homePage.isLogoDisplayed());
+		//verify company logo is present
+		Assert.assertTrue(homePage.isLogoDisplayed());
 	}
 	
 	
 	@Test(enabled = true)
-	public void verifyIfCaroselIsDisplayed() {
-		List<WebElement> caroselList = homePage.getCaroselImages();
-		for (WebElement carosel : caroselList) {
-			Assert.assertTrue(carosel.isDisplayed());
+	public void verifyIfCarouselIsDisplayed() {
+		//verify image Carousel is displayed
+		List<WebElement> carouselList = homePage.getCarouselImages();
+		for (WebElement carousel : carouselList) {
+			Assert.assertTrue(carousel.isDisplayed());
 		}
 		
 	}
 	
 	@Test(enabled = true)
 	public void verifyCarouselNextButton() throws Exception {
+		//verify carousel image changes when next button is pressed
 		long positionBefore = homePage.getCarouselScrollPosition();
 		System.out.println("positionBefore = " + positionBefore);
 		
@@ -74,6 +79,7 @@ public class DmHomePageTest extends DmBaseClass{
 	
 	@Test(enabled = true)
 	public void verifyProductSearch() throws Exception {
+		//verify products can be searched using search bar
 		String productText = homePage.searchProduct("Shampoo");
 		System.out.println(productText);
 		Assert.assertTrue(productText.contains("Produkte"));

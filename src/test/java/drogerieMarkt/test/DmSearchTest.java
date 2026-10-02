@@ -13,6 +13,7 @@ public class DmSearchTest extends DmBaseClass {
 	
 	@Test(enabled=true)
 	public void verifyIfCategoryFilterIsApplied() {
+		//verify product filter is functional 
 		productPage.searchProduct("Shampoo");
 		productPage.getProductsLoaded();
 		String filteredProductCount = searchPage.setCategoryFilterAndGetProductCount();
@@ -23,6 +24,7 @@ public class DmSearchTest extends DmBaseClass {
 
 	@Test(enabled=true)
 	public void verifySortByAscending() {
+		// verify product sort by ascending is functional
 		productPage.searchProduct("Shampoo");
 		productPage.getProductsLoaded();
 		Select sortBy =  searchPage.getSortBySelect();
@@ -37,6 +39,7 @@ public class DmSearchTest extends DmBaseClass {
 	
 	@Test(enabled=true)
 	public void verifySortByDescending() {
+		// verify product sort by descending is functional
 		productPage.searchProduct("Shampoo");
 		productPage.getProductsLoaded();
 		Select sortBy =  searchPage.getSortBySelect();
@@ -50,6 +53,7 @@ public class DmSearchTest extends DmBaseClass {
 
 	@Test(enabled=true)
 	public void verifyPriceFilterFunctionality(){
+		// verify product price filter is functional
 		productPage.searchProduct("Shampoo");
 		productPage.getProductsLoaded();
 		searchPage.setPriceFilter("5", "8");

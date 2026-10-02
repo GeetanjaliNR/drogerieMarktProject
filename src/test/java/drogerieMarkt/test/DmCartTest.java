@@ -12,6 +12,7 @@ public class DmCartTest extends DmBaseClass {
 	
 	@Test(enabled=true)
 	public void verifyCartShowsProductCount(){
+		//verify that cart icon shows correct product count
 		productPage.searchProduct("vitamin D");
 		WebElement productOne = productPage.getFirstSearchedProduct();
 		cartPage.addProductToCart(productOne, 1);
@@ -46,7 +47,7 @@ public class DmCartTest extends DmBaseClass {
 	
 	@Test(enabled=true)
 	public void verifyCartElementsAreDisplayed() {
-		
+		//verify product price, product availability are displayed
 		productPage.searchProduct("shampoo");
 		WebElement product = productPage.getFirstSearchedProduct();
 		cartPage.addProductToCart(product, 1);
@@ -68,6 +69,7 @@ public class DmCartTest extends DmBaseClass {
 	
 	@Test(enabled=true)
 	public void verifyCartProductMatchesCartSummary() {
+		//verify product count on cart matches actual items present in cart
 		productPage.searchProduct("shampoo");
 		WebElement product = productPage.getFirstSearchedProduct();
 		cartPage.addProductToCart(product, 1);

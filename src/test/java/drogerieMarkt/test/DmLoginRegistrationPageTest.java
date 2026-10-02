@@ -13,6 +13,7 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 	
 	@Test(enabled=true)
 	public void verifyLoginRedirection() throws Exception {
+		//verify that the user is redirected to login page when login is clicked
 		loginRegistrationPage.clickAccountButton();
 		loginRegistrationPage.clickLoginButton();
 		String currentURL =loginRegistrationPage.getCurrentPageURL();
@@ -22,6 +23,7 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 	
 	@Test(enabled=true)
 	public void verifyRegistrationRedirection() throws Exception {
+		//verify that the user is redirected to registration page when registration is clicked
 		loginRegistrationPage.clickAccountButton();
 		loginRegistrationPage.clickRegistrationButton();
 		String currentURL =loginRegistrationPage.getCurrentPageURL();
@@ -31,6 +33,7 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 	
 	@Test(enabled=true)
 	public void verifyRegistrationFormRadioButtons() throws Exception {
+		//verify radio button functionality in registration form
 		loginRegistrationPage.getRegistrationPage();
 		
 		List<WebElement> genderRadioButton = loginRegistrationPage.getRadioButtons();
@@ -59,6 +62,7 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 	
 	@Test(enabled=true)
 	public void VerifyfirstName() throws Exception {
+		//verify error message is displayed when no user name is given
 		loginRegistrationPage.getRegistrationPage();
 		
 		loginRegistrationPage.setFirstNameValue("");
@@ -67,7 +71,7 @@ public class DmLoginRegistrationPageTest extends DmBaseClass {
 	
 	@Test(enabled=true)
 	public void dateOfBirthValidation() throws Exception {
-		//ensure appropriate error message is shown 
+		//ensure appropriate error message is shown when birth year is less than 1906 
 		loginRegistrationPage.getRegistrationPage();
 		
 		loginRegistrationPage.setDOBValues("01","01","1905");
