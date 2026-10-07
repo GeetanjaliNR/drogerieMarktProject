@@ -79,7 +79,7 @@ public class DmCartPage {
 
 	public boolean isCartCheckoutButtonEnabled() {
 		wait.until(ExpectedConditions.visibilityOf(cartCheckoutButton));
-		return cartCheckoutButton.isDisplayed();
+		return cartCheckoutButton.isEnabled();
 		
 	}
 

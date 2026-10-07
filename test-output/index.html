@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">29 methods, 1 failed,   28 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyQuantityChange(3)">verifyQuantityChange(3)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">29 methods,   29 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -172,7 +158,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="verifyIfCaroselIsDisplayed">verifyIfCaroselIsDisplayed</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmHomePageTest" class="method navigator-link" hash-for-method="verifyIfCarouselIsDisplayed">verifyIfCarouselIsDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -227,6 +213,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyQuantityChange(3)">verifyQuantityChange(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="drogerieMarkt.test.DmProductTest" class="method navigator-link" hash-for-method="verifyQuantityChange(1)">verifyQuantityChange(1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -267,75 +258,95 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">drogerieMarkt.test.DmProductTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyQuantityChange(3)">
-                  </a> <!-- verifyQuantityChange(3) -->
-                  <span class="method-name">verifyQuantityChange</span>
-                  <span class="parameters">(3)</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#dm\-dropdown&quot;}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;15.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.97, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64982}, goog:processID: 13135, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64982/devtoo..., se:cdpVersion: 154.0.8037.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9be9df8108c5d335bb868fcad854ece9
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at drogerieMarkt.page.DmProductPage.getQuantitySelectElement(DmProductPage.java:96)
-	at drogerieMarkt.test.DmProductTest.verifyQuantityChange(DmProductTest.java:67)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">drogerieMarkt.test.DmCartTest</span>
+              <span class="class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCartElementsAreDisplayed">
-                  </a> <!-- verifyCartElementsAreDisplayed -->
-                  <span class="method-name">verifyCartElementsAreDisplayed</span>
+                  <a name="VerifyfirstName">
+                  </a> <!-- VerifyfirstName -->
+                  <span class="method-name">VerifyfirstName</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCartPageNavigation">
-                  </a> <!-- verifyCartPageNavigation -->
-                  <span class="method-name">verifyCartPageNavigation</span>
+                  <a name="dateOfBirthValidation">
+                  </a> <!-- dateOfBirthValidation -->
+                  <span class="method-name">dateOfBirthValidation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCartProductMatchesCartSummary">
-                  </a> <!-- verifyCartProductMatchesCartSummary -->
-                  <span class="method-name">verifyCartProductMatchesCartSummary</span>
+                  <a name="verifyLoginRedirection">
+                  </a> <!-- verifyLoginRedirection -->
+                  <span class="method-name">verifyLoginRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCartShowsProductCount">
-                  </a> <!-- verifyCartShowsProductCount -->
-                  <span class="method-name">verifyCartShowsProductCount</span>
+                  <a name="verifyRegistrationFormRadioButtons">
+                  </a> <!-- verifyRegistrationFormRadioButtons -->
+                  <span class="method-name">verifyRegistrationFormRadioButtons</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyEmptyCartMessage">
-                  </a> <!-- verifyEmptyCartMessage -->
-                  <span class="method-name">verifyEmptyCartMessage</span>
+                  <a name="verifyRegistrationRedirection">
+                  </a> <!-- verifyRegistrationRedirection -->
+                  <span class="method-name">verifyRegistrationRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">drogerieMarkt.test.DmHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageLinkValidation">
+                  </a> <!-- homePageLinkValidation -->
+                  <span class="method-name">homePageLinkValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCarouselNextButton">
+                  </a> <!-- verifyCarouselNextButton -->
+                  <span class="method-name">verifyCarouselNextButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitle">
+                  </a> <!-- verifyHomePageTitle -->
+                  <span class="method-name">verifyHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIfCarouselIsDisplayed">
+                  </a> <!-- verifyIfCarouselIsDisplayed -->
+                  <span class="method-name">verifyIfCarouselIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPresenceOfLogo">
+                  </a> <!-- verifyPresenceOfLogo -->
+                  <span class="method-name">verifyPresenceOfLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch">
+                  </a> <!-- verifyProductSearch -->
+                  <span class="method-name">verifyProductSearch</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -372,56 +383,6 @@ Session ID: 9be9df8108c5d335bb868fcad854ece9
                   <a name="verifySortByDescending">
                   </a> <!-- verifySortByDescending -->
                   <span class="method-name">verifySortByDescending</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">drogerieMarkt.test.DmHomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="homePageLinkValidation">
-                  </a> <!-- homePageLinkValidation -->
-                  <span class="method-name">homePageLinkValidation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCarouselNextButton">
-                  </a> <!-- verifyCarouselNextButton -->
-                  <span class="method-name">verifyCarouselNextButton</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHomePageTitle">
-                  </a> <!-- verifyHomePageTitle -->
-                  <span class="method-name">verifyHomePageTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyIfCaroselIsDisplayed">
-                  </a> <!-- verifyIfCaroselIsDisplayed -->
-                  <span class="method-name">verifyIfCaroselIsDisplayed</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPresenceOfLogo">
-                  </a> <!-- verifyPresenceOfLogo -->
-                  <span class="method-name">verifyPresenceOfLogo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyProductSearch">
-                  </a> <!-- verifyProductSearch -->
-                  <span class="method-name">verifyProductSearch</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -477,6 +438,14 @@ Session ID: 9be9df8108c5d335bb868fcad854ece9
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="verifyQuantityChange(3)">
+                  </a> <!-- verifyQuantityChange(3) -->
+                  <span class="method-name">verifyQuantityChange</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verifyQuantityChange(1)">
                   </a> <!-- verifyQuantityChange(1) -->
                   <span class="method-name">verifyQuantityChange</span>
@@ -496,42 +465,42 @@ Session ID: 9be9df8108c5d335bb868fcad854ece9
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</span>
+              <span class="class-name">drogerieMarkt.test.DmCartTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyfirstName">
-                  </a> <!-- VerifyfirstName -->
-                  <span class="method-name">VerifyfirstName</span>
+                  <a name="verifyCartElementsAreDisplayed">
+                  </a> <!-- verifyCartElementsAreDisplayed -->
+                  <span class="method-name">verifyCartElementsAreDisplayed</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="dateOfBirthValidation">
-                  </a> <!-- dateOfBirthValidation -->
-                  <span class="method-name">dateOfBirthValidation</span>
+                  <a name="verifyCartPageNavigation">
+                  </a> <!-- verifyCartPageNavigation -->
+                  <span class="method-name">verifyCartPageNavigation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginRedirection">
-                  </a> <!-- verifyLoginRedirection -->
-                  <span class="method-name">verifyLoginRedirection</span>
+                  <a name="verifyCartProductMatchesCartSummary">
+                  </a> <!-- verifyCartProductMatchesCartSummary -->
+                  <span class="method-name">verifyCartProductMatchesCartSummary</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyRegistrationFormRadioButtons">
-                  </a> <!-- verifyRegistrationFormRadioButtons -->
-                  <span class="method-name">verifyRegistrationFormRadioButtons</span>
+                  <a name="verifyCartShowsProductCount">
+                  </a> <!-- verifyCartShowsProductCount -->
+                  <span class="method-name">verifyCartShowsProductCount</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyRegistrationRedirection">
-                  </a> <!-- verifyRegistrationRedirection -->
-                  <span class="method-name">verifyRegistrationRedirection</span>
+                  <a name="verifyEmptyCartMessage">
+                  </a> <!-- verifyEmptyCartMessage -->
+                  <span class="method-name">verifyEmptyCartMessage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -594,121 +563,121 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(29);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyQuantityChange')
-data.setCell(0, 2, 'drogerieMarkt.test.DmProductTest')
-data.setCell(0, 3, 21284);
+data.setCell(0, 1, 'verifyCartShowsProductCount')
+data.setCell(0, 2, 'drogerieMarkt.test.DmCartTest')
+data.setCell(0, 3, 9528);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyCartShowsProductCount')
+data.setCell(1, 1, 'verifyCartProductMatchesCartSummary')
 data.setCell(1, 2, 'drogerieMarkt.test.DmCartTest')
-data.setCell(1, 3, 9470);
+data.setCell(1, 3, 7417);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyCartElementsAreDisplayed')
 data.setCell(2, 2, 'drogerieMarkt.test.DmCartTest')
-data.setCell(2, 3, 7629);
+data.setCell(2, 3, 7180);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyCartProductMatchesCartSummary')
-data.setCell(3, 2, 'drogerieMarkt.test.DmCartTest')
-data.setCell(3, 3, 6904);
+data.setCell(3, 1, 'verifySortByDescending')
+data.setCell(3, 2, 'drogerieMarkt.test.DmSearchTest')
+data.setCell(3, 3, 6796);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifySortByAscending')
 data.setCell(4, 2, 'drogerieMarkt.test.DmSearchTest')
-data.setCell(4, 3, 6711);
+data.setCell(4, 3, 6290);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifySortByDescending')
+data.setCell(5, 1, 'verifyPriceFilterFunctionality')
 data.setCell(5, 2, 'drogerieMarkt.test.DmSearchTest')
-data.setCell(5, 3, 6690);
+data.setCell(5, 3, 4984);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyPriceFilterFunctionality')
+data.setCell(6, 1, 'verifyIfCategoryFilterIsApplied')
 data.setCell(6, 2, 'drogerieMarkt.test.DmSearchTest')
-data.setCell(6, 3, 4533);
+data.setCell(6, 3, 3534);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyIfCategoryFilterIsApplied')
-data.setCell(7, 2, 'drogerieMarkt.test.DmSearchTest')
-data.setCell(7, 3, 3222);
+data.setCell(7, 1, 'verifyQuantityChange')
+data.setCell(7, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(7, 3, 2793);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyQuantityChange')
-data.setCell(8, 2, 'drogerieMarkt.test.DmProductTest')
-data.setCell(8, 3, 2878);
+data.setCell(8, 1, 'homePageLinkValidation')
+data.setCell(8, 2, 'drogerieMarkt.test.DmHomePageTest')
+data.setCell(8, 3, 2636);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'homePageLinkValidation')
+data.setCell(9, 1, 'verifyCarouselNextButton')
 data.setCell(9, 2, 'drogerieMarkt.test.DmHomePageTest')
-data.setCell(9, 3, 2625);
+data.setCell(9, 3, 2165);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyCarouselNextButton')
-data.setCell(10, 2, 'drogerieMarkt.test.DmHomePageTest')
-data.setCell(10, 3, 2180);
+data.setCell(10, 1, 'verifyQuantityChange')
+data.setCell(10, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(10, 3, 2081);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'verifyQuantityChange')
 data.setCell(11, 2, 'drogerieMarkt.test.DmProductTest')
-data.setCell(11, 3, 2151);
+data.setCell(11, 3, 2028);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'verifyQuantityChange')
 data.setCell(12, 2, 'drogerieMarkt.test.DmProductTest')
-data.setCell(12, 3, 1983);
+data.setCell(12, 3, 1953);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyProductPageNaviagation')
+data.setCell(13, 1, 'verifyAddToCartButtonEnabled')
 data.setCell(13, 2, 'drogerieMarkt.test.DmProductTest')
-data.setCell(13, 3, 1849);
+data.setCell(13, 3, 1825);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyAddToCartButtonEnabled')
-data.setCell(14, 2, 'drogerieMarkt.test.DmProductTest')
-data.setCell(14, 3, 1835);
+data.setCell(14, 1, 'dateOfBirthValidation')
+data.setCell(14, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
+data.setCell(14, 3, 1705);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'dateOfBirthValidation')
+data.setCell(15, 1, 'verifyRegistrationFormRadioButtons')
 data.setCell(15, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
-data.setCell(15, 3, 1652);
+data.setCell(15, 3, 1678);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'verifyRegistrationFormRadioButtons')
+data.setCell(16, 1, 'VerifyfirstName')
 data.setCell(16, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
-data.setCell(16, 3, 1648);
+data.setCell(16, 3, 1551);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verifyLoginRedirection')
-data.setCell(17, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
-data.setCell(17, 3, 1621);
+data.setCell(17, 1, 'verifyProductQuatityDropdown')
+data.setCell(17, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(17, 3, 1545);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'verifyProductQuatityDropdown')
-data.setCell(18, 2, 'drogerieMarkt.test.DmProductTest')
-data.setCell(18, 3, 1507);
+data.setCell(18, 1, 'verifyLoginRedirection')
+data.setCell(18, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
+data.setCell(18, 3, 1518);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'VerifyfirstName')
+data.setCell(19, 1, 'verifyRegistrationRedirection')
 data.setCell(19, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
-data.setCell(19, 3, 1490);
+data.setCell(19, 3, 1470);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'verifyRegistrationRedirection')
-data.setCell(20, 2, 'drogerieMarkt.test.DmLoginRegistrationPageTest')
-data.setCell(20, 3, 1446);
+data.setCell(20, 1, 'verifyProductPageNaviagation')
+data.setCell(20, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(20, 3, 1465);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'verifyProductPriceIsDisplayed')
 data.setCell(21, 2, 'drogerieMarkt.test.DmProductTest')
-data.setCell(21, 3, 1352);
+data.setCell(21, 3, 1308);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'verifyProductSearch')
-data.setCell(22, 2, 'drogerieMarkt.test.DmHomePageTest')
-data.setCell(22, 3, 1308);
+data.setCell(22, 1, 'verifyProductsAreDisplayed')
+data.setCell(22, 2, 'drogerieMarkt.test.DmProductTest')
+data.setCell(22, 3, 1233);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'verifyProductsAreDisplayed')
-data.setCell(23, 2, 'drogerieMarkt.test.DmProductTest')
-data.setCell(23, 3, 1225);
+data.setCell(23, 1, 'verifyProductSearch')
+data.setCell(23, 2, 'drogerieMarkt.test.DmHomePageTest')
+data.setCell(23, 3, 1216);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'verifyEmptyCartMessage')
 data.setCell(24, 2, 'drogerieMarkt.test.DmCartTest')
-data.setCell(24, 3, 641);
+data.setCell(24, 3, 697);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'verifyIfCaroselIsDisplayed')
+data.setCell(25, 1, 'verifyIfCarouselIsDisplayed')
 data.setCell(25, 2, 'drogerieMarkt.test.DmHomePageTest')
-data.setCell(25, 3, 227);
+data.setCell(25, 3, 208);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'verifyCartPageNavigation')
 data.setCell(26, 2, 'drogerieMarkt.test.DmCartTest')
-data.setCell(26, 3, 158);
+data.setCell(26, 3, 157);
 data.setCell(27, 0, 27)
 data.setCell(27, 1, 'verifyPresenceOfLogo')
 data.setCell(27, 2, 'drogerieMarkt.test.DmHomePageTest')
-data.setCell(27, 3, 131);
+data.setCell(27, 3, 85);
 data.setCell(28, 0, 28)
 data.setCell(28, 1, 'verifyHomePageTitle')
 data.setCell(28, 2, 'drogerieMarkt.test.DmHomePageTest')
-data.setCell(28, 3, 16);
+data.setCell(28, 3, 17);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -732,7 +701,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">drogerieMarkt.test.DmCartTest</span>
+              <span class="ignored-class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">reportSetup</span>
                 <br/>
@@ -752,18 +721,18 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">drogerieMarkt.test.DmProductTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">reportSetup</span>
-                <br/>
                 <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">reportSetup</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</span>
+              <span class="ignored-class-name">drogerieMarkt.test.DmCartTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
                 <span class="ignored-method-name">reportSetup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -782,372 +751,370 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.homePageLinkValidation())</span>
-                <span class="method-start">125 ms</span>
+                <span class="method-start">123 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">homePageLinkValidation</span>
-                <span class="method-start">13335 ms</span>
+                <span class="method-start">5490 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=homePageLinkValidation status=SUCCESS method=DmHomePageTest.homePageLinkValidation(...)</span>
-                <span class="method-start">15962 ms</span>
+                <span class="method-start">8127 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyCarouselNextButton() throws java.lang.Exception)</span>
-                <span class="method-start">16055 ms</span>
+                <span class="method-start">8221 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCarouselNextButton</span>
-                <span class="method-start">21011 ms</span>
+                <span class="method-start">13476 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyCarouselNextButton status=SUCCESS method=DmHomePageTest.verifyCarouselNextBut...)</span>
-                <span class="method-start">23192 ms</span>
+                <span class="method-start">15642 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyHomePageTitle())</span>
-                <span class="method-start">23278 ms</span>
+                <span class="method-start">15728 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitle</span>
-                <span class="method-start">28237 ms</span>
+                <span class="method-start">21211 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyHomePageTitle status=SUCCESS method=DmHomePageTest.verifyHomePageTitle()[pri:...)</span>
-                <span class="method-start">28254 ms</span>
+                <span class="method-start">21228 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyIfCaroselIsDisplayed())</span>
-                <span class="method-start">28336 ms</span>
+                <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyIfCarouselIsDisplayed())</span>
+                <span class="method-start">21370 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyIfCaroselIsDisplayed</span>
-                <span class="method-start">32527 ms</span>
+                <span class="method-name">verifyIfCarouselIsDisplayed</span>
+                <span class="method-start">26623 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">browserClose([TestResult name=verifyIfCaroselIsDisplayed status=SUCCESS method=DmHomePageTest.verifyIfCaroselIsDi...)</span>
-                <span class="method-start">32755 ms</span>
+                <span class="method-name">browserClose([TestResult name=verifyIfCarouselIsDisplayed status=SUCCESS method=DmHomePageTest.verifyIfCarouselIs...)</span>
+                <span class="method-start">26832 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyPresenceOfLogo())</span>
-                <span class="method-start">32840 ms</span>
+                <span class="method-start">26915 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPresenceOfLogo</span>
-                <span class="method-start">37018 ms</span>
+                <span class="method-start">32221 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyPresenceOfLogo status=SUCCESS method=DmHomePageTest.verifyPresenceOfLogo()[pr...)</span>
-                <span class="method-start">37150 ms</span>
+                <span class="method-start">32307 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmHomePageTest.verifyProductSearch() throws java.lang.Exception)</span>
-                <span class="method-start">37235 ms</span>
+                <span class="method-start">32391 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyProductSearch</span>
-                <span class="method-start">42558 ms</span>
+                <span class="method-start">37404 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyProductSearch status=SUCCESS method=DmHomePageTest.verifyProductSearch()[pri:...)</span>
-                <span class="method-start">43866 ms</span>
+                <span class="method-start">38620 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">drogerieMarkt.test.DmLoginRegistrationPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmLoginRegistrationPageTest.VerifyfirstName() throws java.lang.Except...)</span>
-                <span class="method-start">43953 ms</span>
+                <span class="method-start">38727 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyfirstName</span>
-                <span class="method-start">49167 ms</span>
+                <span class="method-start">43155 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=VerifyfirstName status=SUCCESS method=DmLoginRegistrationPageTest.VerifyfirstName()...)</span>
-                <span class="method-start">50657 ms</span>
+                <span class="method-start">44706 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmLoginRegistrationPageTest.dateOfBirthValidation() throws java.lang....)</span>
-                <span class="method-start">50744 ms</span>
+                <span class="method-start">44792 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dateOfBirthValidation</span>
-                <span class="method-start">55746 ms</span>
+                <span class="method-start">50545 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=dateOfBirthValidation status=SUCCESS method=DmLoginRegistrationPageTest.dateOfBirth...)</span>
-                <span class="method-start">57398 ms</span>
+                <span class="method-start">52251 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmLoginRegistrationPageTest.verifyLoginRedirection() throws java.lang...)</span>
-                <span class="method-start">57484 ms</span>
+                <span class="method-start">52337 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginRedirection</span>
-                <span class="method-start">61292 ms</span>
+                <span class="method-start">57328 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyLoginRedirection status=SUCCESS method=DmLoginRegistrationPageTest.verifyLogi...)</span>
-                <span class="method-start">62914 ms</span>
+                <span class="method-start">58846 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmLoginRegistrationPageTest.verifyRegistrationFormRadioButtons() thro...)</span>
-                <span class="method-start">63013 ms</span>
+                <span class="method-start">58932 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyRegistrationFormRadioButtons</span>
-                <span class="method-start">68232 ms</span>
+                <span class="method-start">63157 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyRegistrationFormRadioButtons status=SUCCESS method=DmLoginRegistrationPageTes...)</span>
-                <span class="method-start">69880 ms</span>
+                <span class="method-start">64835 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmLoginRegistrationPageTest.verifyRegistrationRedirection() throws ja...)</span>
-                <span class="method-start">69966 ms</span>
+                <span class="method-start">64923 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyRegistrationRedirection</span>
-                <span class="method-start">74917 ms</span>
+                <span class="method-start">69744 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyRegistrationRedirection status=SUCCESS method=DmLoginRegistrationPageTest.ver...)</span>
-                <span class="method-start">76363 ms</span>
+                <span class="method-start">71215 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">drogerieMarkt.test.DmProductTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyAddToCartButtonEnabled())</span>
-                <span class="method-start">76495 ms</span>
+                <span class="method-start">71298 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAddToCartButtonEnabled</span>
-                <span class="method-start">81783 ms</span>
+                <span class="method-start">75986 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyAddToCartButtonEnabled status=SUCCESS method=DmProductTest.verifyAddToCartBut...)</span>
-                <span class="method-start">83619 ms</span>
+                <span class="method-start">77811 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyProductPageNaviagation() throws java.lang.Excepti...)</span>
-                <span class="method-start">83702 ms</span>
+                <span class="method-start">77898 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyProductPageNaviagation</span>
-                <span class="method-start">88454 ms</span>
+                <span class="method-start">83187 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyProductPageNaviagation status=SUCCESS method=DmProductTest.verifyProductPageN...)</span>
-                <span class="method-start">90303 ms</span>
+                <span class="method-start">84652 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyProductPriceIsDisplayed())</span>
-                <span class="method-start">90387 ms</span>
+                <span class="method-start">84735 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyProductPriceIsDisplayed</span>
-                <span class="method-start">95382 ms</span>
+                <span class="method-start">89934 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyProductPriceIsDisplayed status=SUCCESS method=DmProductTest.verifyProductPric...)</span>
-                <span class="method-start">96734 ms</span>
+                <span class="method-start">91242 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyProductQuatityDropdown())</span>
-                <span class="method-start">96817 ms</span>
+                <span class="method-start">91324 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyProductQuatityDropdown</span>
-                <span class="method-start">101580 ms</span>
+                <span class="method-start">96651 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyProductQuatityDropdown status=SUCCESS method=DmProductTest.verifyProductQuati...)</span>
-                <span class="method-start">103087 ms</span>
+                <span class="method-start">98196 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyProductsAreDisplayed() throws java.lang.Exception)</span>
-                <span class="method-start">103169 ms</span>
+                <span class="method-start">98279 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyProductsAreDisplayed</span>
-                <span class="method-start">108203 ms</span>
+                <span class="method-start">103538 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyProductsAreDisplayed status=SUCCESS method=DmProductTest.verifyProductsAreDis...)</span>
-                <span class="method-start">109429 ms</span>
+                <span class="method-start">104772 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int))</span>
-                <span class="method-start">109513 ms</span>
+                <span class="method-start">104860 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyQuantityChange(1)</span>
-                <span class="method-start">113619 ms</span>
+                <span class="method-start">110415 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[...)</span>
-                <span class="method-start">115770 ms</span>
+                <span class="method-start">113208 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int))</span>
-                <span class="method-start">115862 ms</span>
+                <span class="method-start">113295 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyQuantityChange(2)</span>
-                <span class="method-start">120132 ms</span>
+                <span class="method-start">118227 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[...)</span>
-                <span class="method-start">123011 ms</span>
+                <span class="method-start">120308 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int))</span>
-                <span class="method-start">123092 ms</span>
+                <span class="method-start">120395 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyQuantityChange(3)</span>
-                <span class="method-start">126969 ms</span>
+                <span class="method-start">125987 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">browserClose([TestResult name=verifyQuantityChange status=FAILURE method=DmProductTest.verifyQuantityChange(int)[...)</span>
-                <span class="method-start">148255 ms</span>
+                <span class="method-name">browserClose([TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[...)</span>
+                <span class="method-start">128016 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmProductTest.verifyQuantityChange(int))</span>
-                <span class="method-start">158843 ms</span>
+                <span class="method-start">128102 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyQuantityChange(4)</span>
-                <span class="method-start">163334 ms</span>
+                <span class="method-start">134171 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[...)</span>
-                <span class="method-start">165317 ms</span>
+                <span class="method-start">136124 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">drogerieMarkt.test.DmCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmCartTest.verifyCartElementsAreDisplayed())</span>
-                <span class="method-start">165409 ms</span>
+                <span class="method-start">136213 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCartElementsAreDisplayed</span>
-                <span class="method-start">169804 ms</span>
+                <span class="method-start">141194 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyCartElementsAreDisplayed status=SUCCESS method=DmCartTest.verifyCartElementsA...)</span>
-                <span class="method-start">177433 ms</span>
+                <span class="method-start">148374 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmCartTest.verifyCartPageNavigation())</span>
-                <span class="method-start">177519 ms</span>
+                <span class="method-start">148468 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCartPageNavigation</span>
-                <span class="method-start">183035 ms</span>
+                <span class="method-start">153659 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyCartPageNavigation status=SUCCESS method=DmCartTest.verifyCartPageNavigation(...)</span>
-                <span class="method-start">183194 ms</span>
+                <span class="method-start">153817 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmCartTest.verifyCartProductMatchesCartSummary())</span>
-                <span class="method-start">183278 ms</span>
+                <span class="method-start">153910 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCartProductMatchesCartSummary</span>
-                <span class="method-start">188610 ms</span>
+                <span class="method-start">158288 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyCartProductMatchesCartSummary status=SUCCESS method=DmCartTest.verifyCartProd...)</span>
-                <span class="method-start">195515 ms</span>
+                <span class="method-start">165706 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmCartTest.verifyCartShowsProductCount())</span>
-                <span class="method-start">195606 ms</span>
+                <span class="method-start">165821 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCartShowsProductCount</span>
-                <span class="method-start">200849 ms</span>
+                <span class="method-start">171197 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyCartShowsProductCount status=SUCCESS method=DmCartTest.verifyCartShowsProduct...)</span>
-                <span class="method-start">210320 ms</span>
+                <span class="method-start">180725 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmCartTest.verifyEmptyCartMessage())</span>
-                <span class="method-start">210412 ms</span>
+                <span class="method-start">180843 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyEmptyCartMessage</span>
-                <span class="method-start">215626 ms</span>
+                <span class="method-start">185542 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyEmptyCartMessage status=SUCCESS method=DmCartTest.verifyEmptyCartMessage()[pr...)</span>
-                <span class="method-start">216267 ms</span>
+                <span class="method-start">186239 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">drogerieMarkt.test.DmSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmSearchTest.verifyIfCategoryFilterIsApplied())</span>
-                <span class="method-start">216351 ms</span>
+                <span class="method-start">186327 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyIfCategoryFilterIsApplied</span>
-                <span class="method-start">221018 ms</span>
+                <span class="method-start">190937 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyIfCategoryFilterIsApplied status=SUCCESS method=DmSearchTest.verifyIfCategory...)</span>
-                <span class="method-start">224241 ms</span>
+                <span class="method-start">194472 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmSearchTest.verifyPriceFilterFunctionality())</span>
-                <span class="method-start">224324 ms</span>
+                <span class="method-start">194554 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPriceFilterFunctionality</span>
-                <span class="method-start">229112 ms</span>
+                <span class="method-start">198236 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifyPriceFilterFunctionality status=SUCCESS method=DmSearchTest.verifyPriceFilter...)</span>
-                <span class="method-start">233646 ms</span>
+                <span class="method-start">203220 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmSearchTest.verifySortByAscending())</span>
-                <span class="method-start">233727 ms</span>
+                <span class="method-start">203306 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySortByAscending</span>
-                <span class="method-start">237948 ms</span>
+                <span class="method-start">208096 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifySortByAscending status=SUCCESS method=DmSearchTest.verifySortByAscending()[pr...)</span>
-                <span class="method-start">244659 ms</span>
+                <span class="method-start">214386 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void drogerieMarkt.test.DmSearchTest.verifySortByDescending())</span>
-                <span class="method-start">244769 ms</span>
+                <span class="method-start">214474 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySortByDescending</span>
-                <span class="method-start">250041 ms</span>
+                <span class="method-start">219759 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose([TestResult name=verifySortByDescending status=SUCCESS method=DmSearchTest.verifySortByDescending()[...)</span>
-                <span class="method-start">256731 ms</span>
+                <span class="method-start">226555 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">drogerieMarkt.test.DmHomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">256814 ms</span>
+                <span class="method-start">226642 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

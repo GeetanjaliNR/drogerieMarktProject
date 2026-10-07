@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="29" passed="28" failed="1" skipped="0">
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-02T11:13:01 CEST" name="Suite" finished-at="2026-10-02T11:17:18 CEST" duration-ms="256965">
+  <suite started-at="2026-10-07T11:48:55 CEST" name="Suite" finished-at="2026-10-07T11:52:42 CEST" duration-ms="226804">
     <groups>
     </groups>
-    <test started-at="2026-10-02T11:13:01 CEST" name="Test" finished-at="2026-10-02T11:17:18 CEST" duration-ms="256965">
+    <test started-at="2026-10-07T11:48:55 CEST" name="Test" finished-at="2026-10-07T11:52:42 CEST" duration-ms="226804">
       <class name="drogerieMarkt.test.DmSearchTest">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:37 CEST" name="setup" finished-at="2026-10-02T11:16:42 CEST" duration-ms="4667" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:01 CEST" name="setup" finished-at="2026-10-07T11:52:06 CEST" duration-ms="4610" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,22 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyIfCategoryFilterIsApplied()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:42 CEST" name="verifyIfCategoryFilterIsApplied" finished-at="2026-10-02T11:16:45 CEST" duration-ms="3222" status="PASS">
+        <test-method signature="verifyIfCategoryFilterIsApplied()[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:06 CEST" name="verifyIfCategoryFilterIsApplied" finished-at="2026-10-07T11:52:09 CEST" duration-ms="3534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfCategoryFilterIsApplied -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:45 CEST" name="browserClose" finished-at="2026-10-02T11:16:45 CEST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:09 CEST" name="browserClose" finished-at="2026-10-07T11:52:09 CEST" duration-ms="81" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyIfCategoryFilterIsApplied status=SUCCESS method=DmSearchTest.verifyIfCategoryFilterIsApplied()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd] output={null}]]]>
+                <![CDATA[[TestResult name=verifyIfCategoryFilterIsApplied status=SUCCESS method=DmSearchTest.verifyIfCategoryFilterIsApplied()[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:45 CEST" name="setup" finished-at="2026-10-02T11:16:50 CEST" duration-ms="4788" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:09 CEST" name="setup" finished-at="2026-10-07T11:52:13 CEST" duration-ms="3682" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,22 +44,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPriceFilterFunctionality()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:50 CEST" name="verifyPriceFilterFunctionality" finished-at="2026-10-02T11:16:55 CEST" duration-ms="4533" status="PASS">
+        <test-method signature="verifyPriceFilterFunctionality()[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:13 CEST" name="verifyPriceFilterFunctionality" finished-at="2026-10-07T11:52:18 CEST" duration-ms="4984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPriceFilterFunctionality -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:55 CEST" name="browserClose" finished-at="2026-10-02T11:16:55 CEST" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:18 CEST" name="browserClose" finished-at="2026-10-07T11:52:18 CEST" duration-ms="85" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPriceFilterFunctionality status=SUCCESS method=DmSearchTest.verifyPriceFilterFunctionality()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPriceFilterFunctionality status=SUCCESS method=DmSearchTest.verifyPriceFilterFunctionality()[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:55 CEST" name="setup" finished-at="2026-10-02T11:16:59 CEST" duration-ms="4221" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:18 CEST" name="setup" finished-at="2026-10-07T11:52:23 CEST" duration-ms="4789" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,22 +70,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySortByAscending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:16:59 CEST" name="verifySortByAscending" finished-at="2026-10-02T11:17:06 CEST" duration-ms="6711" status="PASS">
+        <test-method signature="verifySortByAscending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:23 CEST" name="verifySortByAscending" finished-at="2026-10-07T11:52:29 CEST" duration-ms="6290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByAscending -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:17:06 CEST" name="browserClose" finished-at="2026-10-02T11:17:06 CEST" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:29 CEST" name="browserClose" finished-at="2026-10-07T11:52:29 CEST" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySortByAscending status=SUCCESS method=DmSearchTest.verifySortByAscending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd] output={null}]]]>
+                <![CDATA[[TestResult name=verifySortByAscending status=SUCCESS method=DmSearchTest.verifySortByAscending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:17:06 CEST" name="setup" finished-at="2026-10-02T11:17:11 CEST" duration-ms="5272" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:29 CEST" name="setup" finished-at="2026-10-07T11:52:35 CEST" duration-ms="5285" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,15 +96,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySortByDescending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:17:11 CEST" name="verifySortByDescending" finished-at="2026-10-02T11:17:18 CEST" duration-ms="6690" status="PASS">
+        <test-method signature="verifySortByDescending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:35 CEST" name="verifySortByDescending" finished-at="2026-10-07T11:52:41 CEST" duration-ms="6796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByDescending -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd]" started-at="2026-10-02T11:17:18 CEST" name="browserClose" finished-at="2026-10-02T11:17:18 CEST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306]" started-at="2026-10-07T11:52:41 CEST" name="browserClose" finished-at="2026-10-07T11:52:42 CEST" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySortByDescending status=SUCCESS method=DmSearchTest.verifySortByDescending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@6cb107fd] output={null}]]]>
+                <![CDATA[[TestResult name=verifySortByDescending status=SUCCESS method=DmSearchTest.verifySortByDescending()[pri:0, instance:drogerieMarkt.test.DmSearchTest@4009e306] output={null}]]]>
               </value>
             </param>
           </params>
@@ -113,7 +113,7 @@
         </test-method> <!-- browserClose -->
       </class> <!-- drogerieMarkt.test.DmSearchTest -->
       <class name="drogerieMarkt.test.DmProductTest">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:17 CEST" name="setup" finished-at="2026-10-02T11:14:23 CEST" duration-ms="5288" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:06 CEST" name="setup" finished-at="2026-10-07T11:50:11 CEST" duration-ms="4688" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,22 +124,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAddToCartButtonEnabled()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:23 CEST" name="verifyAddToCartButtonEnabled" finished-at="2026-10-02T11:14:24 CEST" duration-ms="1835" status="PASS">
+        <test-method signature="verifyAddToCartButtonEnabled()[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:11 CEST" name="verifyAddToCartButtonEnabled" finished-at="2026-10-07T11:50:13 CEST" duration-ms="1825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToCartButtonEnabled -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:24 CEST" name="browserClose" finished-at="2026-10-02T11:14:25 CEST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:13 CEST" name="browserClose" finished-at="2026-10-07T11:50:13 CEST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddToCartButtonEnabled status=SUCCESS method=DmProductTest.verifyAddToCartButtonEnabled()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAddToCartButtonEnabled status=SUCCESS method=DmProductTest.verifyAddToCartButtonEnabled()[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:25 CEST" name="setup" finished-at="2026-10-02T11:14:29 CEST" duration-ms="4752" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:13 CEST" name="setup" finished-at="2026-10-07T11:50:18 CEST" duration-ms="5289" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,22 +150,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductPageNaviagation()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:29 CEST" name="verifyProductPageNaviagation" finished-at="2026-10-02T11:14:31 CEST" duration-ms="1849" status="PASS">
+        <test-method signature="verifyProductPageNaviagation()[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:18 CEST" name="verifyProductPageNaviagation" finished-at="2026-10-07T11:50:20 CEST" duration-ms="1465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductPageNaviagation -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:31 CEST" name="browserClose" finished-at="2026-10-02T11:14:31 CEST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:20 CEST" name="browserClose" finished-at="2026-10-07T11:50:20 CEST" duration-ms="83" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyProductPageNaviagation status=SUCCESS method=DmProductTest.verifyProductPageNaviagation()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=verifyProductPageNaviagation status=SUCCESS method=DmProductTest.verifyProductPageNaviagation()[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:31 CEST" name="setup" finished-at="2026-10-02T11:14:36 CEST" duration-ms="4995" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:20 CEST" name="setup" finished-at="2026-10-07T11:50:25 CEST" duration-ms="5199" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,22 +176,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductPriceIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:36 CEST" name="verifyProductPriceIsDisplayed" finished-at="2026-10-02T11:14:38 CEST" duration-ms="1352" status="PASS">
+        <test-method signature="verifyProductPriceIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:25 CEST" name="verifyProductPriceIsDisplayed" finished-at="2026-10-07T11:50:26 CEST" duration-ms="1308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductPriceIsDisplayed -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:38 CEST" name="browserClose" finished-at="2026-10-02T11:14:38 CEST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:26 CEST" name="browserClose" finished-at="2026-10-07T11:50:26 CEST" duration-ms="82" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyProductPriceIsDisplayed status=SUCCESS method=DmProductTest.verifyProductPriceIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=verifyProductPriceIsDisplayed status=SUCCESS method=DmProductTest.verifyProductPriceIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:38 CEST" name="setup" finished-at="2026-10-02T11:14:42 CEST" duration-ms="4763" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:26 CEST" name="setup" finished-at="2026-10-07T11:50:32 CEST" duration-ms="5327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,22 +202,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductQuatityDropdown()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:42 CEST" name="verifyProductQuatityDropdown" finished-at="2026-10-02T11:14:44 CEST" duration-ms="1507" status="PASS">
+        <test-method signature="verifyProductQuatityDropdown()[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:32 CEST" name="verifyProductQuatityDropdown" finished-at="2026-10-07T11:50:33 CEST" duration-ms="1545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductQuatityDropdown -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:44 CEST" name="browserClose" finished-at="2026-10-02T11:14:44 CEST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:33 CEST" name="browserClose" finished-at="2026-10-07T11:50:33 CEST" duration-ms="83" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyProductQuatityDropdown status=SUCCESS method=DmProductTest.verifyProductQuatityDropdown()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=verifyProductQuatityDropdown status=SUCCESS method=DmProductTest.verifyProductQuatityDropdown()[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:44 CEST" name="setup" finished-at="2026-10-02T11:14:49 CEST" duration-ms="5034" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:33 CEST" name="setup" finished-at="2026-10-07T11:50:38 CEST" duration-ms="5258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -228,22 +228,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:49 CEST" name="verifyProductsAreDisplayed" finished-at="2026-10-02T11:14:50 CEST" duration-ms="1225" status="PASS">
+        <test-method signature="verifyProductsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:38 CEST" name="verifyProductsAreDisplayed" finished-at="2026-10-07T11:50:40 CEST" duration-ms="1233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductsAreDisplayed -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:50 CEST" name="browserClose" finished-at="2026-10-02T11:14:50 CEST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:40 CEST" name="browserClose" finished-at="2026-10-07T11:50:40 CEST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyProductsAreDisplayed status=SUCCESS method=DmProductTest.verifyProductsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=verifyProductsAreDisplayed status=SUCCESS method=DmProductTest.verifyProductsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:50 CEST" name="setup" finished-at="2026-10-02T11:14:54 CEST" duration-ms="4106" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:40 CEST" name="setup" finished-at="2026-10-07T11:50:45 CEST" duration-ms="5554" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -254,7 +254,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:54 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-02T11:14:57 CEST" duration-ms="2151" status="PASS">
+        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:45 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-07T11:50:48 CEST" duration-ms="2793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,18 +265,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuantityChange -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:57 CEST" name="browserClose" finished-at="2026-10-02T11:14:57 CEST" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:48 CEST" name="browserClose" finished-at="2026-10-07T11:50:48 CEST" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:14:57 CEST" name="setup" finished-at="2026-10-02T11:15:01 CEST" duration-ms="4270" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:48 CEST" name="setup" finished-at="2026-10-07T11:50:53 CEST" duration-ms="4932" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -287,7 +287,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:01 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-02T11:15:04 CEST" duration-ms="2878" status="PASS">
+        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:53 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-07T11:50:55 CEST" duration-ms="2081" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -298,18 +298,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuantityChange -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:04 CEST" name="browserClose" finished-at="2026-10-02T11:15:04 CEST" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:55 CEST" name="browserClose" finished-at="2026-10-07T11:50:55 CEST" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:04 CEST" name="setup" finished-at="2026-10-02T11:15:08 CEST" duration-ms="3877" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:50:55 CEST" name="setup" finished-at="2026-10-07T11:51:01 CEST" duration-ms="5592" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -320,7 +320,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:08 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-02T11:15:29 CEST" duration-ms="21284" status="FAIL">
+        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:51:01 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-07T11:51:03 CEST" duration-ms="2028" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -328,74 +328,21 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dm\-dropdown"}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.97, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64982}, goog:processID: 13135, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64982/devtoo..., se:cdpVersion: 154.0.8037.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9be9df8108c5d335bb868fcad854ece9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dm\-dropdown"}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '15.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.97, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64982}, goog:processID: 13135, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64982/devtoo..., se:cdpVersion: 154.0.8037.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9be9df8108c5d335bb868fcad854ece9
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at drogerieMarkt.page.DmProductPage.getQuantitySelectElement(DmProductPage.java:96)
-at drogerieMarkt.test.DmProductTest.verifyQuantityChange(DmProductTest.java:67)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuantityChange -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:29 CEST" name="browserClose" finished-at="2026-10-02T11:15:40 CEST" duration-ms="10587" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:51:03 CEST" name="browserClose" finished-at="2026-10-07T11:51:03 CEST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyQuantityChange status=FAILURE method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:40 CEST" name="setup" finished-at="2026-10-02T11:15:44 CEST" duration-ms="4491" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:51:03 CEST" name="setup" finished-at="2026-10-07T11:51:09 CEST" duration-ms="6068" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -406,7 +353,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:44 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-02T11:15:46 CEST" duration-ms="1983" status="PASS">
+        <test-method signature="verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:51:09 CEST" name="verifyQuantityChange" data-provider="quantites" finished-at="2026-10-07T11:51:11 CEST" duration-ms="1953" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -417,11 +364,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuantityChange -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465]" started-at="2026-10-02T11:15:46 CEST" name="browserClose" finished-at="2026-10-02T11:15:46 CEST" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211]" started-at="2026-10-07T11:51:11 CEST" name="browserClose" finished-at="2026-10-07T11:51:11 CEST" duration-ms="88" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=verifyQuantityChange status=SUCCESS method=DmProductTest.verifyQuantityChange(int)[pri:0, instance:drogerieMarkt.test.DmProductTest@3d34d211] output={null}]]]>
               </value>
             </param>
           </params>
@@ -430,7 +377,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- browserClose -->
       </class> <!-- drogerieMarkt.test.DmProductTest -->
       <class name="drogerieMarkt.test.DmCartTest">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:15:46 CEST" name="setup" finished-at="2026-10-02T11:15:51 CEST" duration-ms="4395" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:11 CEST" name="setup" finished-at="2026-10-07T11:51:16 CEST" duration-ms="4980" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -441,22 +388,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCartElementsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:15:51 CEST" name="verifyCartElementsAreDisplayed" finished-at="2026-10-02T11:15:58 CEST" duration-ms="7629" status="PASS">
+        <test-method signature="verifyCartElementsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:16 CEST" name="verifyCartElementsAreDisplayed" finished-at="2026-10-07T11:51:23 CEST" duration-ms="7180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartElementsAreDisplayed -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:15:58 CEST" name="browserClose" finished-at="2026-10-02T11:15:58 CEST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:23 CEST" name="browserClose" finished-at="2026-10-07T11:51:23 CEST" duration-ms="93" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCartElementsAreDisplayed status=SUCCESS method=DmCartTest.verifyCartElementsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCartElementsAreDisplayed status=SUCCESS method=DmCartTest.verifyCartElementsAreDisplayed()[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:15:58 CEST" name="setup" finished-at="2026-10-02T11:16:04 CEST" duration-ms="5516" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:23 CEST" name="setup" finished-at="2026-10-07T11:51:29 CEST" duration-ms="5191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -467,22 +414,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCartPageNavigation()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:04 CEST" name="verifyCartPageNavigation" finished-at="2026-10-02T11:16:04 CEST" duration-ms="158" status="PASS">
+        <test-method signature="verifyCartPageNavigation()[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:29 CEST" name="verifyCartPageNavigation" finished-at="2026-10-07T11:51:29 CEST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartPageNavigation -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:04 CEST" name="browserClose" finished-at="2026-10-02T11:16:04 CEST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:29 CEST" name="browserClose" finished-at="2026-10-07T11:51:29 CEST" duration-ms="93" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCartPageNavigation status=SUCCESS method=DmCartTest.verifyCartPageNavigation()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCartPageNavigation status=SUCCESS method=DmCartTest.verifyCartPageNavigation()[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:04 CEST" name="setup" finished-at="2026-10-02T11:16:09 CEST" duration-ms="5332" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:29 CEST" name="setup" finished-at="2026-10-07T11:51:33 CEST" duration-ms="4378" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -493,22 +440,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCartProductMatchesCartSummary()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:09 CEST" name="verifyCartProductMatchesCartSummary" finished-at="2026-10-02T11:16:16 CEST" duration-ms="6904" status="PASS">
+        <test-method signature="verifyCartProductMatchesCartSummary()[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:33 CEST" name="verifyCartProductMatchesCartSummary" finished-at="2026-10-07T11:51:41 CEST" duration-ms="7417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartProductMatchesCartSummary -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:16 CEST" name="browserClose" finished-at="2026-10-02T11:16:16 CEST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:41 CEST" name="browserClose" finished-at="2026-10-07T11:51:41 CEST" duration-ms="115" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCartProductMatchesCartSummary status=SUCCESS method=DmCartTest.verifyCartProductMatchesCartSummary()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCartProductMatchesCartSummary status=SUCCESS method=DmCartTest.verifyCartProductMatchesCartSummary()[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:16 CEST" name="setup" finished-at="2026-10-02T11:16:22 CEST" duration-ms="5243" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:41 CEST" name="setup" finished-at="2026-10-07T11:51:46 CEST" duration-ms="5376" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -519,22 +466,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCartShowsProductCount()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:22 CEST" name="verifyCartShowsProductCount" finished-at="2026-10-02T11:16:31 CEST" duration-ms="9470" status="PASS">
+        <test-method signature="verifyCartShowsProductCount()[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:46 CEST" name="verifyCartShowsProductCount" finished-at="2026-10-07T11:51:56 CEST" duration-ms="9528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartShowsProductCount -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:31 CEST" name="browserClose" finished-at="2026-10-02T11:16:31 CEST" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:56 CEST" name="browserClose" finished-at="2026-10-07T11:51:56 CEST" duration-ms="118" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCartShowsProductCount status=SUCCESS method=DmCartTest.verifyCartShowsProductCount()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCartShowsProductCount status=SUCCESS method=DmCartTest.verifyCartShowsProductCount()[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:31 CEST" name="setup" finished-at="2026-10-02T11:16:36 CEST" duration-ms="5214" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:51:56 CEST" name="setup" finished-at="2026-10-07T11:52:00 CEST" duration-ms="4699" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -545,15 +492,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyEmptyCartMessage()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:36 CEST" name="verifyEmptyCartMessage" finished-at="2026-10-02T11:16:37 CEST" duration-ms="641" status="PASS">
+        <test-method signature="verifyEmptyCartMessage()[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:52:00 CEST" name="verifyEmptyCartMessage" finished-at="2026-10-07T11:52:01 CEST" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmptyCartMessage -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640]" started-at="2026-10-02T11:16:37 CEST" name="browserClose" finished-at="2026-10-02T11:16:37 CEST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706]" started-at="2026-10-07T11:52:01 CEST" name="browserClose" finished-at="2026-10-07T11:52:01 CEST" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyEmptyCartMessage status=SUCCESS method=DmCartTest.verifyEmptyCartMessage()[pri:0, instance:drogerieMarkt.test.DmCartTest@5b799640] output={null}]]]>
+                <![CDATA[[TestResult name=verifyEmptyCartMessage status=SUCCESS method=DmCartTest.verifyEmptyCartMessage()[pri:0, instance:drogerieMarkt.test.DmCartTest@7dc0f706] output={null}]]]>
               </value>
             </param>
           </params>
@@ -562,7 +509,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- browserClose -->
       </class> <!-- drogerieMarkt.test.DmCartTest -->
       <class name="drogerieMarkt.test.DmLoginRegistrationPageTest">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:45 CEST" name="setup" finished-at="2026-10-02T11:13:50 CEST" duration-ms="5214" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:34 CEST" name="setup" finished-at="2026-10-07T11:49:38 CEST" duration-ms="4428" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -573,22 +520,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyfirstName()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:50 CEST" name="VerifyfirstName" finished-at="2026-10-02T11:13:52 CEST" duration-ms="1490" status="PASS">
+        <test-method signature="VerifyfirstName()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:38 CEST" name="VerifyfirstName" finished-at="2026-10-07T11:49:40 CEST" duration-ms="1551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyfirstName -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:52 CEST" name="browserClose" finished-at="2026-10-02T11:13:52 CEST" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:40 CEST" name="browserClose" finished-at="2026-10-07T11:49:40 CEST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyfirstName status=SUCCESS method=DmLoginRegistrationPageTest.VerifyfirstName()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyfirstName status=SUCCESS method=DmLoginRegistrationPageTest.VerifyfirstName()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:52 CEST" name="setup" finished-at="2026-10-02T11:13:57 CEST" duration-ms="5002" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:40 CEST" name="setup" finished-at="2026-10-07T11:49:45 CEST" duration-ms="5752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -599,22 +546,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dateOfBirthValidation()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:57 CEST" name="dateOfBirthValidation" finished-at="2026-10-02T11:13:58 CEST" duration-ms="1652" status="PASS">
+        <test-method signature="dateOfBirthValidation()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:45 CEST" name="dateOfBirthValidation" finished-at="2026-10-07T11:49:47 CEST" duration-ms="1705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dateOfBirthValidation -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:58 CEST" name="browserClose" finished-at="2026-10-02T11:13:58 CEST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:47 CEST" name="browserClose" finished-at="2026-10-07T11:49:47 CEST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dateOfBirthValidation status=SUCCESS method=DmLoginRegistrationPageTest.dateOfBirthValidation()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd] output={null}]]]>
+                <![CDATA[[TestResult name=dateOfBirthValidation status=SUCCESS method=DmLoginRegistrationPageTest.dateOfBirthValidation()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:13:58 CEST" name="setup" finished-at="2026-10-02T11:14:02 CEST" duration-ms="3808" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:47 CEST" name="setup" finished-at="2026-10-07T11:49:52 CEST" duration-ms="4991" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -625,22 +572,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:02 CEST" name="verifyLoginRedirection" finished-at="2026-10-02T11:14:04 CEST" duration-ms="1621" status="PASS">
+        <test-method signature="verifyLoginRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:52 CEST" name="verifyLoginRedirection" finished-at="2026-10-07T11:49:54 CEST" duration-ms="1518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginRedirection -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:04 CEST" name="browserClose" finished-at="2026-10-02T11:14:04 CEST" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:54 CEST" name="browserClose" finished-at="2026-10-07T11:49:54 CEST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginRedirection status=SUCCESS method=DmLoginRegistrationPageTest.verifyLoginRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginRedirection status=SUCCESS method=DmLoginRegistrationPageTest.verifyLoginRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:04 CEST" name="setup" finished-at="2026-10-02T11:14:09 CEST" duration-ms="5219" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:54 CEST" name="setup" finished-at="2026-10-07T11:49:58 CEST" duration-ms="4225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -651,22 +598,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegistrationFormRadioButtons()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:09 CEST" name="verifyRegistrationFormRadioButtons" finished-at="2026-10-02T11:14:11 CEST" duration-ms="1648" status="PASS">
+        <test-method signature="verifyRegistrationFormRadioButtons()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:49:58 CEST" name="verifyRegistrationFormRadioButtons" finished-at="2026-10-07T11:50:00 CEST" duration-ms="1678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationFormRadioButtons -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:11 CEST" name="browserClose" finished-at="2026-10-02T11:14:11 CEST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:50:00 CEST" name="browserClose" finished-at="2026-10-07T11:50:00 CEST" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyRegistrationFormRadioButtons status=SUCCESS method=DmLoginRegistrationPageTest.verifyRegistrationFormRadioButtons()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRegistrationFormRadioButtons status=SUCCESS method=DmLoginRegistrationPageTest.verifyRegistrationFormRadioButtons()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:11 CEST" name="setup" finished-at="2026-10-02T11:14:16 CEST" duration-ms="4951" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:50:00 CEST" name="setup" finished-at="2026-10-07T11:50:05 CEST" duration-ms="4821" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -677,15 +624,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegistrationRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:16 CEST" name="verifyRegistrationRedirection" finished-at="2026-10-02T11:14:17 CEST" duration-ms="1446" status="PASS">
+        <test-method signature="verifyRegistrationRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:50:05 CEST" name="verifyRegistrationRedirection" finished-at="2026-10-07T11:50:06 CEST" duration-ms="1470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationRedirection -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd]" started-at="2026-10-02T11:14:17 CEST" name="browserClose" finished-at="2026-10-02T11:14:17 CEST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544]" started-at="2026-10-07T11:50:06 CEST" name="browserClose" finished-at="2026-10-07T11:50:06 CEST" duration-ms="82" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyRegistrationRedirection status=SUCCESS method=DmLoginRegistrationPageTest.verifyRegistrationRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRegistrationRedirection status=SUCCESS method=DmLoginRegistrationPageTest.verifyRegistrationRedirection()[pri:0, instance:drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544] output={null}]]]>
               </value>
             </param>
           </params>
@@ -694,11 +641,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- browserClose -->
       </class> <!-- drogerieMarkt.test.DmLoginRegistrationPageTest -->
       <class name="drogerieMarkt.test.DmHomePageTest">
-        <test-method is-config="true" signature="reportSetup()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:01 CEST" name="reportSetup" finished-at="2026-10-02T11:13:01 CEST" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:48:55 CEST" name="reportSetup" finished-at="2026-10-07T11:48:55 CEST" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSetup -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:01 CEST" name="setup" finished-at="2026-10-02T11:13:14 CEST" duration-ms="13209" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:48:55 CEST" name="setup" finished-at="2026-10-07T11:49:00 CEST" duration-ms="5367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -709,22 +656,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageLinkValidation()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:14 CEST" name="homePageLinkValidation" finished-at="2026-10-02T11:13:17 CEST" duration-ms="2625" status="PASS">
+        <test-method signature="homePageLinkValidation()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:00 CEST" name="homePageLinkValidation" finished-at="2026-10-07T11:49:03 CEST" duration-ms="2636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageLinkValidation -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:17 CEST" name="browserClose" finished-at="2026-10-02T11:13:17 CEST" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:03 CEST" name="browserClose" finished-at="2026-10-07T11:49:03 CEST" duration-ms="94" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=homePageLinkValidation status=SUCCESS method=DmHomePageTest.homePageLinkValidation()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf] output={null}]]]>
+                <![CDATA[[TestResult name=homePageLinkValidation status=SUCCESS method=DmHomePageTest.homePageLinkValidation()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:17 CEST" name="setup" finished-at="2026-10-02T11:13:22 CEST" duration-ms="4956" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:03 CEST" name="setup" finished-at="2026-10-07T11:49:08 CEST" duration-ms="5255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -735,22 +682,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCarouselNextButton()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:22 CEST" name="verifyCarouselNextButton" finished-at="2026-10-02T11:13:24 CEST" duration-ms="2180" status="PASS">
+        <test-method signature="verifyCarouselNextButton()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:08 CEST" name="verifyCarouselNextButton" finished-at="2026-10-07T11:49:11 CEST" duration-ms="2165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCarouselNextButton -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:24 CEST" name="browserClose" finished-at="2026-10-02T11:13:24 CEST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:11 CEST" name="browserClose" finished-at="2026-10-07T11:49:11 CEST" duration-ms="85" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCarouselNextButton status=SUCCESS method=DmHomePageTest.verifyCarouselNextButton()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCarouselNextButton status=SUCCESS method=DmHomePageTest.verifyCarouselNextButton()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:24 CEST" name="setup" finished-at="2026-10-02T11:13:29 CEST" duration-ms="4959" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:11 CEST" name="setup" finished-at="2026-10-07T11:49:16 CEST" duration-ms="5483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -761,48 +708,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHomePageTitle()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:29 CEST" name="verifyHomePageTitle" finished-at="2026-10-02T11:13:29 CEST" duration-ms="16" status="PASS">
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:16 CEST" name="verifyHomePageTitle" finished-at="2026-10-07T11:49:16 CEST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:29 CEST" name="browserClose" finished-at="2026-10-02T11:13:29 CEST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:16 CEST" name="browserClose" finished-at="2026-10-07T11:49:16 CEST" duration-ms="142" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=DmHomePageTest.verifyHomePageTitle()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=DmHomePageTest.verifyHomePageTitle()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:29 CEST" name="setup" finished-at="2026-10-02T11:13:33 CEST" duration-ms="4191" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:16 CEST" name="setup" finished-at="2026-10-07T11:49:22 CEST" duration-ms="5253" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void drogerieMarkt.test.DmHomePageTest.verifyIfCaroselIsDisplayed()]]>
+                <![CDATA[public void drogerieMarkt.test.DmHomePageTest.verifyIfCarouselIsDisplayed()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyIfCaroselIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:33 CEST" name="verifyIfCaroselIsDisplayed" finished-at="2026-10-02T11:13:34 CEST" duration-ms="227" status="PASS">
+        <test-method signature="verifyIfCarouselIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:22 CEST" name="verifyIfCarouselIsDisplayed" finished-at="2026-10-07T11:49:22 CEST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIfCaroselIsDisplayed -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:34 CEST" name="browserClose" finished-at="2026-10-02T11:13:34 CEST" duration-ms="85" status="PASS">
+        </test-method> <!-- verifyIfCarouselIsDisplayed -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:22 CEST" name="browserClose" finished-at="2026-10-07T11:49:22 CEST" duration-ms="83" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyIfCaroselIsDisplayed status=SUCCESS method=DmHomePageTest.verifyIfCaroselIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf] output={null}]]]>
+                <![CDATA[[TestResult name=verifyIfCarouselIsDisplayed status=SUCCESS method=DmHomePageTest.verifyIfCarouselIsDisplayed()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:34 CEST" name="setup" finished-at="2026-10-02T11:13:38 CEST" duration-ms="4178" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:22 CEST" name="setup" finished-at="2026-10-07T11:49:27 CEST" duration-ms="5306" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -813,22 +760,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPresenceOfLogo()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:38 CEST" name="verifyPresenceOfLogo" finished-at="2026-10-02T11:13:38 CEST" duration-ms="131" status="PASS">
+        <test-method signature="verifyPresenceOfLogo()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:27 CEST" name="verifyPresenceOfLogo" finished-at="2026-10-07T11:49:27 CEST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPresenceOfLogo -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:38 CEST" name="browserClose" finished-at="2026-10-02T11:13:38 CEST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:27 CEST" name="browserClose" finished-at="2026-10-07T11:49:27 CEST" duration-ms="83" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPresenceOfLogo status=SUCCESS method=DmHomePageTest.verifyPresenceOfLogo()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPresenceOfLogo status=SUCCESS method=DmHomePageTest.verifyPresenceOfLogo()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:38 CEST" name="setup" finished-at="2026-10-02T11:13:43 CEST" duration-ms="5322" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:27 CEST" name="setup" finished-at="2026-10-07T11:49:32 CEST" duration-ms="5013" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -839,22 +786,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductSearch()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:43 CEST" name="verifyProductSearch" finished-at="2026-10-02T11:13:45 CEST" duration-ms="1308" status="PASS">
+        <test-method signature="verifyProductSearch()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:32 CEST" name="verifyProductSearch" finished-at="2026-10-07T11:49:34 CEST" duration-ms="1216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductSearch -->
-        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:13:45 CEST" name="browserClose" finished-at="2026-10-02T11:13:45 CEST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:49:34 CEST" name="browserClose" finished-at="2026-10-07T11:49:34 CEST" duration-ms="105" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyProductSearch status=SUCCESS method=DmHomePageTest.verifyProductSearch()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf] output={null}]]]>
+                <![CDATA[[TestResult name=verifyProductSearch status=SUCCESS method=DmHomePageTest.verifyProductSearch()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7d900ecf]" started-at="2026-10-02T11:17:18 CEST" name="tearDown" finished-at="2026-10-02T11:17:18 CEST" duration-ms="146" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:drogerieMarkt.test.DmHomePageTest@7c9d8e2]" started-at="2026-10-07T11:52:42 CEST" name="tearDown" finished-at="2026-10-07T11:52:42 CEST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

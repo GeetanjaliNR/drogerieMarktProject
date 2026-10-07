@@ -6,6 +6,9 @@ import org.testng.annotations.AfterTest;
 
 import java.lang.reflect.Method;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
 //import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
@@ -82,6 +85,12 @@ public class DmBaseClass {
 		if(result.getStatus() == ITestResult.FAILURE) {
 			test.log(Status.FAIL, "Test case failed: " + result.getName());
 			test.log(Status.FAIL, "Test case failed: " + result.getThrowable());
+			
+			TakesScreenshot ts = (TakesScreenshot)driver ;
+			String base64Screenshot = ts.getScreenshotAs(OutputType.BASE64);
+			
+			test.addScreenCaptureFromBase64String(base64Screenshot, "Failure Screenshot");
+			
 		}else if(result.getStatus() == ITestResult.SKIP) {
 			test.log(Status.SKIP, "Test case skipped: " + result.getName());
 		}else if(result.getStatus() == ITestResult.SUCCESS) {

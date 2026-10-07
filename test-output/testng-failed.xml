@@ -3,6 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="drogerieMarkt.test.DmCartTest">
+        <methods>
+          <include name="browserClose"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="reportSetup"/>
+          <include name="verifyCartElementsAreDisplayed"/>
+        </methods>
+      </class> <!-- drogerieMarkt.test.DmCartTest -->
       <class name="drogerieMarkt.test.DmProductTest">
         <methods>
           <include name="browserClose"/>

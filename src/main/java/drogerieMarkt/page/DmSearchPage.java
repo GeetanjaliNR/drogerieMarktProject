@@ -66,8 +66,8 @@ public class DmSearchPage {
 	}
 	
 	public String getTotalProductCount() {
-		String totalProduct = wait.until(ExpectedConditions.visibilityOf(totalPoductCount)).getText();
-		return totalProduct.substring(0, 3);
+		String totalProductText = wait.until(ExpectedConditions.visibilityOf(totalPoductCount)).getText();
+		return totalProductText.replaceAll("[^0-9]", "");
 	}
 
 	public Select getSortBySelect() {
@@ -99,7 +99,7 @@ public class DmSearchPage {
 		
 		wait.until(ExpectedConditions.visibilityOf(maxPrice));
 		((JavascriptExecutor) driver).executeScript(
-		        "arguments[0].focus();", minPrice
+		        "arguments[0].focus();", maxPrice
 		    );
 		maxPrice.sendKeys(Keys.COMMAND, "a");
 		maxPrice.sendKeys(endPrice);

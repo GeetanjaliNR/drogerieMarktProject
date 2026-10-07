@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>28/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 02 11:13:01 CEST 2026</td>
+<td>Started on:</td><td>Wed Oct 07 11:48:55 CEST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>256 seconds (256965 ms)</td>
+<tr><td>Total time:</td><td>226 seconds (226804 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,72 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='drogerieMarkt.test.DmProductTest.verifyQuantityChange()'><b>verifyQuantityChange</b><br>Test class: drogerieMarkt.test.DmProductTest<br>Parameters: 3</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#dm\-dropdown&quot;}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;15.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.97, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64982}, goog:processID: 13135, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64982/devtoo..., se:cdpVersion: 154.0.8037.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9be9df8108c5d335bb868fcad854ece9
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at drogerieMarkt.page.DmProductPage.getQuantitySelectElement(DmProductPage.java:96)
-	at drogerieMarkt.test.DmProductTest.verifyQuantityChange(DmProductTest.java:67)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace701279123", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace701279123'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#dm\-dropdown&quot;}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;15.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.97, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: /var/folders/sw/v7f8hzp5577...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64982}, goog:processID: 13135, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64982/devtoo..., se:cdpVersion: 154.0.8037.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9be9df8108c5d335bb868fcad854ece9
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at drogerieMarkt.page.DmProductPage.getQuantitySelectElement(DmProductPage.java:96)
-	at drogerieMarkt.test.DmProductTest.verifyQuantityChange(DmProductTest.java:67)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>21</td>
-<td>drogerieMarkt.test.DmProductTest@4201c465</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -142,145 +76,150 @@ Session ID: 9be9df8108c5d335bb868fcad854ece9
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='drogerieMarkt.test.DmProductTest.verifyProductPageNaviagation()'><b>verifyProductPageNaviagation</b><br>Test class: drogerieMarkt.test.DmProductTest</td>
+<td></td>
+<td>1</td>
+<td>drogerieMarkt.test.DmProductTest@3d34d211</td></tr>
+<tr>
 <td title='drogerieMarkt.test.DmProductTest.verifyAddToCartButtonEnabled()'><b>verifyAddToCartButtonEnabled</b><br>Test class: drogerieMarkt.test.DmProductTest</td>
 <td></td>
 <td>1</td>
-<td>drogerieMarkt.test.DmProductTest@4201c465</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmSearchTest.verifySortByAscending()'><b>verifySortByAscending</b><br>Test class: drogerieMarkt.test.DmSearchTest</td>
-<td></td>
-<td>6</td>
-<td>drogerieMarkt.test.DmSearchTest@6cb107fd</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmProductTest.verifyProductQuatityDropdown()'><b>verifyProductQuatityDropdown</b><br>Test class: drogerieMarkt.test.DmProductTest</td>
-<td></td>
-<td>1</td>
-<td>drogerieMarkt.test.DmProductTest@4201c465</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmLoginRegistrationPageTest.dateOfBirthValidation()'><b>dateOfBirthValidation</b><br>Test class: drogerieMarkt.test.DmLoginRegistrationPageTest</td>
-<td></td>
-<td>1</td>
-<td>drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd</td></tr>
+<td>drogerieMarkt.test.DmProductTest@3d34d211</td></tr>
 <tr>
 <td title='drogerieMarkt.test.DmProductTest.verifyProductPriceIsDisplayed()'><b>verifyProductPriceIsDisplayed</b><br>Test class: drogerieMarkt.test.DmProductTest</td>
 <td></td>
 <td>1</td>
-<td>drogerieMarkt.test.DmProductTest@4201c465</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmCartTest.verifyCartPageNavigation()'><b>verifyCartPageNavigation</b><br>Test class: drogerieMarkt.test.DmCartTest</td>
-<td></td>
-<td>0</td>
-<td>drogerieMarkt.test.DmCartTest@5b799640</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmSearchTest.verifyIfCategoryFilterIsApplied()'><b>verifyIfCategoryFilterIsApplied</b><br>Test class: drogerieMarkt.test.DmSearchTest</td>
-<td></td>
-<td>3</td>
-<td>drogerieMarkt.test.DmSearchTest@6cb107fd</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmCartTest.verifyCartProductMatchesCartSummary()'><b>verifyCartProductMatchesCartSummary</b><br>Test class: drogerieMarkt.test.DmCartTest</td>
-<td></td>
-<td>6</td>
-<td>drogerieMarkt.test.DmCartTest@5b799640</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmProductTest.verifyProductPageNaviagation()'><b>verifyProductPageNaviagation</b><br>Test class: drogerieMarkt.test.DmProductTest</td>
-<td></td>
-<td>1</td>
-<td>drogerieMarkt.test.DmProductTest@4201c465</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmSearchTest.verifyPriceFilterFunctionality()'><b>verifyPriceFilterFunctionality</b><br>Test class: drogerieMarkt.test.DmSearchTest</td>
-<td></td>
-<td>4</td>
-<td>drogerieMarkt.test.DmSearchTest@6cb107fd</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmHomePageTest.homePageLinkValidation()'><b>homePageLinkValidation</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
-<td></td>
-<td>2</td>
-<td>drogerieMarkt.test.DmHomePageTest@7d900ecf</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmCartTest.verifyCartShowsProductCount()'><b>verifyCartShowsProductCount</b><br>Test class: drogerieMarkt.test.DmCartTest</td>
-<td></td>
-<td>9</td>
-<td>drogerieMarkt.test.DmCartTest@5b799640</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmHomePageTest.verifyCarouselNextButton()'><b>verifyCarouselNextButton</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
-<td></td>
-<td>2</td>
-<td>drogerieMarkt.test.DmHomePageTest@7d900ecf</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmHomePageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
-<td></td>
-<td>0</td>
-<td>drogerieMarkt.test.DmHomePageTest@7d900ecf</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmHomePageTest.verifyIfCaroselIsDisplayed()'><b>verifyIfCaroselIsDisplayed</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
-<td></td>
-<td>0</td>
-<td>drogerieMarkt.test.DmHomePageTest@7d900ecf</td></tr>
+<td>drogerieMarkt.test.DmProductTest@3d34d211</td></tr>
 <tr>
 <td title='drogerieMarkt.test.DmHomePageTest.verifyProductSearch()'><b>verifyProductSearch</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
 <td></td>
 <td>1</td>
-<td>drogerieMarkt.test.DmHomePageTest@7d900ecf</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmLoginRegistrationPageTest.verifyRegistrationRedirection()'><b>verifyRegistrationRedirection</b><br>Test class: drogerieMarkt.test.DmLoginRegistrationPageTest</td>
-<td></td>
-<td>1</td>
-<td>drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmProductTest.verifyQuantityChange()'><b>verifyQuantityChange</b><br>Test class: drogerieMarkt.test.DmProductTest<br>Parameters: 4</td>
-<td></td>
-<td>1</td>
-<td>drogerieMarkt.test.DmProductTest@4201c465</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmProductTest.verifyQuantityChange()'><b>verifyQuantityChange</b><br>Test class: drogerieMarkt.test.DmProductTest<br>Parameters: 1</td>
-<td></td>
-<td>2</td>
-<td>drogerieMarkt.test.DmProductTest@4201c465</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmLoginRegistrationPageTest.VerifyfirstName()'><b>VerifyfirstName</b><br>Test class: drogerieMarkt.test.DmLoginRegistrationPageTest</td>
-<td></td>
-<td>1</td>
-<td>drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmSearchTest.verifySortByDescending()'><b>verifySortByDescending</b><br>Test class: drogerieMarkt.test.DmSearchTest</td>
-<td></td>
-<td>6</td>
-<td>drogerieMarkt.test.DmSearchTest@6cb107fd</td></tr>
+<td>drogerieMarkt.test.DmHomePageTest@7c9d8e2</td></tr>
 <tr>
 <td title='drogerieMarkt.test.DmProductTest.verifyProductsAreDisplayed()'><b>verifyProductsAreDisplayed</b><br>Test class: drogerieMarkt.test.DmProductTest</td>
 <td></td>
 <td>1</td>
-<td>drogerieMarkt.test.DmProductTest@4201c465</td></tr>
+<td>drogerieMarkt.test.DmProductTest@3d34d211</td></tr>
 <tr>
-<td title='drogerieMarkt.test.DmCartTest.verifyEmptyCartMessage()'><b>verifyEmptyCartMessage</b><br>Test class: drogerieMarkt.test.DmCartTest</td>
-<td></td>
-<td>0</td>
-<td>drogerieMarkt.test.DmCartTest@5b799640</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmLoginRegistrationPageTest.verifyLoginRedirection()'><b>verifyLoginRedirection</b><br>Test class: drogerieMarkt.test.DmLoginRegistrationPageTest</td>
-<td></td>
-<td>1</td>
-<td>drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmProductTest.verifyQuantityChange()'><b>verifyQuantityChange</b><br>Test class: drogerieMarkt.test.DmProductTest<br>Parameters: 2</td>
+<td title='drogerieMarkt.test.DmHomePageTest.homePageLinkValidation()'><b>homePageLinkValidation</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
 <td></td>
 <td>2</td>
-<td>drogerieMarkt.test.DmProductTest@4201c465</td></tr>
-<tr>
-<td title='drogerieMarkt.test.DmHomePageTest.verifyPresenceOfLogo()'><b>verifyPresenceOfLogo</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
-<td></td>
-<td>0</td>
-<td>drogerieMarkt.test.DmHomePageTest@7d900ecf</td></tr>
+<td>drogerieMarkt.test.DmHomePageTest@7c9d8e2</td></tr>
 <tr>
 <td title='drogerieMarkt.test.DmCartTest.verifyCartElementsAreDisplayed()'><b>verifyCartElementsAreDisplayed</b><br>Test class: drogerieMarkt.test.DmCartTest</td>
 <td></td>
 <td>7</td>
-<td>drogerieMarkt.test.DmCartTest@5b799640</td></tr>
+<td>drogerieMarkt.test.DmCartTest@7dc0f706</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmSearchTest.verifySortByAscending()'><b>verifySortByAscending</b><br>Test class: drogerieMarkt.test.DmSearchTest</td>
+<td></td>
+<td>6</td>
+<td>drogerieMarkt.test.DmSearchTest@4009e306</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmProductTest.verifyProductQuatityDropdown()'><b>verifyProductQuatityDropdown</b><br>Test class: drogerieMarkt.test.DmProductTest</td>
+<td></td>
+<td>1</td>
+<td>drogerieMarkt.test.DmProductTest@3d34d211</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmProductTest.verifyQuantityChange()'><b>verifyQuantityChange</b><br>Test class: drogerieMarkt.test.DmProductTest<br>Parameters: 4</td>
+<td></td>
+<td>1</td>
+<td>drogerieMarkt.test.DmProductTest@3d34d211</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmHomePageTest.verifyPresenceOfLogo()'><b>verifyPresenceOfLogo</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>drogerieMarkt.test.DmHomePageTest@7c9d8e2</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmSearchTest.verifyIfCategoryFilterIsApplied()'><b>verifyIfCategoryFilterIsApplied</b><br>Test class: drogerieMarkt.test.DmSearchTest</td>
+<td></td>
+<td>3</td>
+<td>drogerieMarkt.test.DmSearchTest@4009e306</td></tr>
 <tr>
 <td title='drogerieMarkt.test.DmLoginRegistrationPageTest.verifyRegistrationFormRadioButtons()'><b>verifyRegistrationFormRadioButtons</b><br>Test class: drogerieMarkt.test.DmLoginRegistrationPageTest</td>
 <td></td>
 <td>1</td>
-<td>drogerieMarkt.test.DmLoginRegistrationPageTest@7a5ceedd</td></tr>
+<td>drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmProductTest.verifyQuantityChange()'><b>verifyQuantityChange</b><br>Test class: drogerieMarkt.test.DmProductTest<br>Parameters: 3</td>
+<td></td>
+<td>2</td>
+<td>drogerieMarkt.test.DmProductTest@3d34d211</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmLoginRegistrationPageTest.dateOfBirthValidation()'><b>dateOfBirthValidation</b><br>Test class: drogerieMarkt.test.DmLoginRegistrationPageTest</td>
+<td></td>
+<td>1</td>
+<td>drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmCartTest.verifyEmptyCartMessage()'><b>verifyEmptyCartMessage</b><br>Test class: drogerieMarkt.test.DmCartTest</td>
+<td></td>
+<td>0</td>
+<td>drogerieMarkt.test.DmCartTest@7dc0f706</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmHomePageTest.verifyCarouselNextButton()'><b>verifyCarouselNextButton</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
+<td></td>
+<td>2</td>
+<td>drogerieMarkt.test.DmHomePageTest@7c9d8e2</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmCartTest.verifyCartPageNavigation()'><b>verifyCartPageNavigation</b><br>Test class: drogerieMarkt.test.DmCartTest</td>
+<td></td>
+<td>0</td>
+<td>drogerieMarkt.test.DmCartTest@7dc0f706</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmLoginRegistrationPageTest.VerifyfirstName()'><b>VerifyfirstName</b><br>Test class: drogerieMarkt.test.DmLoginRegistrationPageTest</td>
+<td></td>
+<td>1</td>
+<td>drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmProductTest.verifyQuantityChange()'><b>verifyQuantityChange</b><br>Test class: drogerieMarkt.test.DmProductTest<br>Parameters: 1</td>
+<td></td>
+<td>2</td>
+<td>drogerieMarkt.test.DmProductTest@3d34d211</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmLoginRegistrationPageTest.verifyLoginRedirection()'><b>verifyLoginRedirection</b><br>Test class: drogerieMarkt.test.DmLoginRegistrationPageTest</td>
+<td></td>
+<td>1</td>
+<td>drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmLoginRegistrationPageTest.verifyRegistrationRedirection()'><b>verifyRegistrationRedirection</b><br>Test class: drogerieMarkt.test.DmLoginRegistrationPageTest</td>
+<td></td>
+<td>1</td>
+<td>drogerieMarkt.test.DmLoginRegistrationPageTest@ae13544</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmHomePageTest.verifyIfCarouselIsDisplayed()'><b>verifyIfCarouselIsDisplayed</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>drogerieMarkt.test.DmHomePageTest@7c9d8e2</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmCartTest.verifyCartProductMatchesCartSummary()'><b>verifyCartProductMatchesCartSummary</b><br>Test class: drogerieMarkt.test.DmCartTest</td>
+<td></td>
+<td>7</td>
+<td>drogerieMarkt.test.DmCartTest@7dc0f706</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmSearchTest.verifyPriceFilterFunctionality()'><b>verifyPriceFilterFunctionality</b><br>Test class: drogerieMarkt.test.DmSearchTest</td>
+<td></td>
+<td>4</td>
+<td>drogerieMarkt.test.DmSearchTest@4009e306</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmHomePageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: drogerieMarkt.test.DmHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>drogerieMarkt.test.DmHomePageTest@7c9d8e2</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmSearchTest.verifySortByDescending()'><b>verifySortByDescending</b><br>Test class: drogerieMarkt.test.DmSearchTest</td>
+<td></td>
+<td>6</td>
+<td>drogerieMarkt.test.DmSearchTest@4009e306</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmProductTest.verifyQuantityChange()'><b>verifyQuantityChange</b><br>Test class: drogerieMarkt.test.DmProductTest<br>Parameters: 2</td>
+<td></td>
+<td>2</td>
+<td>drogerieMarkt.test.DmProductTest@3d34d211</td></tr>
+<tr>
+<td title='drogerieMarkt.test.DmCartTest.verifyCartShowsProductCount()'><b>verifyCartShowsProductCount</b><br>Test class: drogerieMarkt.test.DmCartTest</td>
+<td></td>
+<td>9</td>
+<td>drogerieMarkt.test.DmCartTest@7dc0f706</td></tr>
 </table><p>
 </body>
 </html>
